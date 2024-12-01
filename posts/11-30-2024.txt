@@ -1,0 +1,15 @@
+Blog Post 1: Trying Something New!
+
+°❀⋆.ೃ࿔*:･
+
+Hello hello! This is my first attempt at a super simple blog!! (⁠≧⁠▽⁠≦⁠)
+
+I've had blogs in the past (one on my old neocities, a short-lived Dreamwidth one, and of course Tumblr), but they never really felt right for me, if that makes sense? I was always hesitant to actually post, all for different reasons. My old Neocities one, an HTML blog, felt like too much effort. The Dreamwidth one felt like yelling into the void, and not in a fun way. Probably worst is the Tumblr one - as much as I like Tumblr, and as convenient as it was, it sort of had the opposite issue of Dreamwidth. I was hyperaware that people might have my posts pop up on their dashboards, and it made me kinda nervous. The Neocities was the right amount of privacy and too much work (when I could easily just ramble into my notes app), and Tumblr was the right amount of work but a little too public for my tastes at the time. I do find that funny, considering that I don't have any issues putting every little thought on microblogging platforms, but it is what it is.
+
+As for this blog, I have it set up in a bit of an interesting way, if I do say so myself. Assuming this all works, I have it set up via text files in a github repo! I like github but I rarely use it, so this was my way of finding yet another way to use it! Notably, my RSS feed is also in my github, so I guess a lot of this website relies on that ^^; anyways, I used that, netlify, and a neat little javascript doohicky to make it so that I can make the files in said github repo, and just add the links to my neocities when I get the chance! It's much more convenient for me, since there's a mobile app for github, and it'll appear pretty much as it does when I type it out. This miiight lead to a delay between post dates and post appearances, but it also means that I'll actually MAKE the posts!! Honestly, if it weren't for the appeal of neocities as a platform, I'd probably just have the whole website in github......
+
+this website is still a wip, so we'll see :'D
+
+Anyway though, my intention with this is making the process easy enough on myself that I see making blog posts as a fun thing I can do, rather than a chore I should probably get around to. (Looking at how much I posted on literally any of those platforms, it's pretty easy to see that it would usually become an issue within a month or two.) In addition, I've seen a few people have text file blogs, and I wanted to give it a shot! I've thrown this together as my first attempt, so let's see how this goes! Thanks for reading! <3
+
+- Bailey Lockheart (11/30/2024)
