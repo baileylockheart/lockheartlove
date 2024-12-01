@@ -1,4 +1,4 @@
-# Lockheart Love ♡ [![Made in VS Code](https://img.shields.io/badge/Made_in-VS_Code-blue)](https://code.visualstudio.com) [![Hosted on Netlify](https://img.shields.io/badge/Hosted_On-Netlify-teal)](https://www.netlify.com)
+# Lockheart Love ♡ [![Made in VS Code](https://img.shields.io/badge/Made_in-VS_Code-blue)](https://code.visualstudio.com) [![Hosted on Netlify](https://img.shields.io/badge/Hosted_On-Netlify-teal)](https://www.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/5848a38c-4b0c-4758-9a26-7d619c6d0ac6/deploy-status)](https://app.netlify.com/sites/lockheartlove/deploys)
 
 My personal website!!! very much a WIP, and intended to one day be put on neocities :3
 
