@@ -7,5 +7,7 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## $${\color{pink}Updates \space and \space Changes:}$$
+12-01-2024: Added another graphics page and removed a broken link!
+
 11-30-2024: Site hosted on Netlify, working out immediate issues!
 
