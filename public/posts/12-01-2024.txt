@@ -4,7 +4,7 @@ Blog Post 2: Github is driving me nuts
 
 Hello hello! First full day of the website being up, and I've already changed a lot!
 
-I've been back to exploring webrings again, which led to me grabbing some virtual pets and graphics as well! It's been nice in that regard, and I enjoyed setting those up. I also moved the main website into a "public" folder, which will make it easier to move things over to Neocities once I can. Like I said in my last post, I do still intend to put this site on Neocities eventually. Netlify is nice, but it's currently just meant to hold it over. It will be a bit of a pain to change things out when the time comes, but I'm willing to work through it (و •̀ ᴗ•́ )و
+I've been back to exploring webrings again, which led to me grabbing some virtual pets and graphics as well! It's been nice in that regard, and I enjoyed setting those up. I also moved the main website into a "public" folder, which will make it easier to move things over to Neocities once I can. Like I said in my last post, I do still intend to put this site on Neocities eventually. Netlify is nice, but it's currently just meant to hold it over. It'll be a pain to change it all when the time comes, but I'm willing to work through it (و •̀ ᴗ•́ )و
 
 Anyways, in terms of actual changes to the site, I already got a lot done. However, that BARELY compares to the fact that I found out SO MUCH today???? I've had my Github account for a while now, and I mostly just used it to look around. When I started using it and launched my Github page (which is just silly portfolio thing), I already felt like I was learning a lot about how it worked. Now, though?? I'm actively losing my mind due to the amount of information flooding it.
 
