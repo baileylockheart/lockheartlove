@@ -7,7 +7,9 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## $${\color{pink}Updates \space and \space Changes:}$$
-12-01-2024: Added another graphics page, virtual pets, and moved things to a public folder!
+12-02-2024: Additional links and graphics, more pokemon, and fixed the footer on the graphics page!
+
+12-01-2024: Added another graphics page, virtual pets, and moved everything to a public folder!
 
 11-30-2024: Site hosted on Netlify, working out immediate issues!
 
