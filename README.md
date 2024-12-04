@@ -7,7 +7,7 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## $${\color{pink}Updates \space and \space Changes:}$$
-12-03-2024: Altered posts page so you can sort alphabetically!
+12-04-2024: Altered posts page so you can sort alphabetically!
 
 12-03-2024: Joined my first webring and applied to some fanlistings!!
 
