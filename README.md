@@ -7,7 +7,9 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## $${\color{pink}Updates \space and \space Changes:}$$
-12-03-2024: Joined my first webring!!
+12-03-2024: Altered posts page so you can sort alphabetically!
+
+12-03-2024: Joined my first webring and applied to some fanlistings!!
 
 12-02-2024: Additional links and graphics, more pokemon, and fixed the footer on the graphics page!
 
