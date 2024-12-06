@@ -1,72 +1,81 @@
-document.getElementById("smallvocaring").innerHTML = `
+document.getElementById("vocaring").innerHTML = `
 <style>
 @font-face{
-    font-family:'Orbi';
-    src:url(https://files.catbox.moe/q521mw.ttf);
+    font-family:'Legacy';
+    src:url(https://files.catbox.moe/vb0fng.otf);
 }
 
-@font-face{
-    font-family:'Pixel Operator';
-    src:url(https://files.catbox.moe/kyguk9.ttf);
+#vocaring{
+    width:fit-content;
+    height:fit-content;
+    margin:0 10px;
 }
 
-.smallvocacontainer::selection {
-    background: #34f2ff;
-    color:white;
-}
- 
-.smallvocacontainer::-moz-selection {
-    background: #34f2ff;
+.vocacontainer::selection {
+    background:#4cd4de;
     color:white;
 }
 
-#smallvocaring table {
-    margin: 0 auto;
+.vocacontainer::-moz-selection {
+    background:#4cd4de;
+    color:white;
 }
 
-#smallvocaring .webring-info {
+.vocacontainer{
+    width:210px;
+    height:90px;
+    padding:5px;
+    background-color:#c9eff2;
+    border:4px solid #4cd4de;
+    box-sizing:border-box;
+}
+
+.vocacontainer table {
+    margin:0;
+}
+
+.vocacontainer .webring-info {
     text-align:center;
-    font-family:Orbi;
+    font-family:'Legacy';
     color:#e74492;
-    font-size:20px;
+    font-size:27px;
+    letter-spacing:3px;
+    text-shadow:#ffffff 2px 0px 0px, #ffffff 1.75517px 0.958851px 0px, #ffffff 1.0806px 1.68294px 0px, #ffffff 0.141474px 1.99499px 0px, #ffffff -0.832294px 1.81859px 0px, #ffffff -1.60229px 1.19694px 0px, #ffffff -1.97999px 0.28224px 0px, #ffffff -1.87291px -0.701566px 0px, #ffffff -1.30729px -1.51361px 0px, #ffffff -0.421592px -1.95506px 0px, #ffffff 0.567324px -1.91785px 0px, #ffffff 1.41734px -1.41108px 0px, #ffffff 1.92034px -0.558831px 0px;
+    line-height:100%;
+    margin-bottom:5px;
 }
 
-#smallvocaring .webring-links{
-    font-size:18px;
-    font-family:Pixel Operator;
+.vocacontainer .webring-links{
+    font-size:17px;
+    font-family:'Arial';
     color:#e74492;
 }
 
-#smallvocaring .webring-links a{
+.vocacontainer .webring-links a{
     text-decoration: none;
     color:#e74492;
-    text-shadow: 2px 2px 1px #34f2ff;
+    text-shadow:#ffffff 2px 0px 0px, #ffffff 1.75517px 0.958851px 0px, #ffffff 1.0806px 1.68294px 0px, #ffffff 0.141474px 1.99499px 0px, #ffffff -0.832294px 1.81859px 0px, #ffffff -1.60229px 1.19694px 0px, #ffffff -1.97999px 0.28224px 0px, #ffffff -1.87291px -0.701566px 0px, #ffffff -1.30729px -1.51361px 0px, #ffffff -0.421592px -1.95506px 0px, #ffffff 0.567324px -1.91785px 0px, #ffffff 1.41734px -1.41108px 0px, #ffffff 1.92034px -0.558831px 0px;
+    filter:drop-shadow( 0 2px var(--bc)) drop-shadow( 2px 0 var(--bc)) drop-shadow( 0 -2px var(--bc)) drop-shadow(-2px 0 var(--bc));
     transition:0.3s;
 }
 
-#smallvocaring .webring-links a:hover{
-    
-    letter-spacing: normal;
+.vocacontainer .webring-links a:hover{
+    letter-spacing:normal;
 }
 
-img {
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+.vocacontainer img {
+    display:inline !important;
 }
 </style>
 
-    <table class='smallvocacontainer' style='text-align: center;'>
+<table class='vocacontainer' style='text-align: center;'>
     <tr>
         <td>
-            <div class='webring-info'>VOCALOID WEBRING</div>
+            <div class='webring-info'>VOCALOID<br>WEBRING</div>
             <div class='webring-links'>
-                [<a href='https://webring.adilene.net/' target='_parent'>Index</a> · <a href='https://webring.adilene.net/members.php' target='_parent'>Members</a>]
+                <a href='https://webring.adilene.net/index.php' target='_parent'>Index</a> &#8226; <a href='https://webring.adilene.net/members.php' target='_parent'>Members</a>
             </div>
         </td>
     </tr>
-  </table>
+</table>
 `;
