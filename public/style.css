@@ -77,14 +77,6 @@ body, html {
     margin:-10px;
     margin-bottom: 11px;
 }
-#postID{
-    width:95%;
-    height:25rem;
-    align-self: center;
-    margin-top: -1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
 /*nav*/
 #nav {
     background-color: var(--light);
