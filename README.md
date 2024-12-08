@@ -6,7 +6,7 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 
 .・。.・゜✭・.・✫・゜・。. 
 
-## $${\color{pink}Updates \space and \space Changes:}$$
+## Updates and Changes:
 12-07-2024: Fixed 404 page, added new links, and added site rating!
 
 12-04-2024: Altered posts page so you can sort alphabetically!
