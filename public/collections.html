@@ -34,7 +34,6 @@
 <style>
     #collectionsnav{
         font-size: 1.25rem;
-        line-height: 0.15rem;
     }
     #collectionsnav a{
         text-decoration: underline;
@@ -48,6 +47,15 @@
         text-align: center;
         padding-left: auto;
         padding-right: auto;
+    }
+    li.hearts{
+        display: none;
+    }
+
+    @media (max-width: 380px){
+    li.hearts{
+        display: inline-block;
+    }
     }
 </style>
 <body>
@@ -77,19 +85,21 @@
                             <hr>
                             <h3>~ Digital Stuff ~<br><sup>of many varieties! </sup></h3>
                             <span id="collectionsnav">
-                                &#9825;&nbsp;<a href="/collections/feeds.html">Feeds</a>&nbsp;&#9825;&nbsp;
-                                <a href="/collections/quizzes.html">Quiz Results</a>&nbsp;&#9825;&nbsp;
-                                <a href="/collections/shrines.html">Shrines</a>&nbsp;&#9825;&nbsp;
-                                <a href="/collections/virtualpets.html">Virtual Pets</a>&nbsp;&#9825;
+                                &#9825;&nbsp;<a href="/collections/feeds.html">Feeds</a>
+                                &nbsp;&#9825;&nbsp;<a href="/collections/quizzes.html">Quiz Results</a>
+                                &nbsp;&#9825;&nbsp;<a href="/collections/shrines.html">Shrines</a>
+                                <li class="hearts">&#9825;</li>
+                                &nbsp;&#9825;&nbsp;<a href="/collections/virtualpets.html">Virtual Pets</a>&nbsp;&#9825;
                             </span>
                             <br><br>
                             <hr>
                             <h3>~ Graphics ~<br><sup>Warning for flashing/blinking images and eyestrain!</sup></h3>
                             <span id="collectionsnav">
-                                &#9825;&nbsp;<a href="/collections/blinkies.html">Blinkies</a>&nbsp;&#9825;&nbsp;
-                                <a href="/collections/buttons.html">Buttons</a>&nbsp;&#9825;&nbsp;
-                                <a href="/collections/stamps.html">Stamps</a>&nbsp;&#9825;&nbsp;
-                                <a href="/collections/graphics.html">Other Graphics</a>&nbsp;&#9825;
+                                &#9825;&nbsp;<a href="/collections/blinkies.html">Blinkies</a>
+                                &nbsp;&#9825;&nbsp;<a href="/collections/buttons.html">Buttons</a>
+                                &nbsp;&#9825;&nbsp;<a href="/collections/stamps.html">Stamps</a>
+                                <li class="hearts">&#9825;</li>
+                                &nbsp;&#9825;&nbsp;<a href="/collections/graphics.html">Graphics</a>&nbsp;&#9825;
                             </span>
                             <br><br>
                         </div>
