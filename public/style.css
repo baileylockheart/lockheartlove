@@ -160,24 +160,21 @@ footer a:hover{
 }
 /*buttons*/
 button {
+    display: table-cell;
+    vertical-align: middle;
     background-color: var(--light);
     color:var(--main);
     cursor: pointer;
     width: 88px;
-    font-family: "Alegreya Sans", sans-serif;
+    height:31px;
     border:none;
     border-radius:5px;
-    font-size:0.85rem;
-    height:31px;
-    font-weight:700;
-    margin: 0px;
-    margin-bottom: 3px;
     text-align: center;
     text-decoration: none;
-    display: inline-flex;
-    cursor: pointer;
-    display: table-cell;
-    vertical-align: middle;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size:0.85rem;
+    font-weight:700;
+    margin: 0 0 3px 0;
 }
 /*fun stuff*/
 hr{
