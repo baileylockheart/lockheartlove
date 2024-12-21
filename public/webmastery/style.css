@@ -39,7 +39,7 @@ hr{
     margin-top:15px;
     margin-bottom:15px;
 }
-#mainta{
+#mainta, .textarea{
     width:90%;
     height:150px;
     font-family: "IBM Plex Mono", serif;
@@ -56,7 +56,7 @@ hr{
 }
 .toc{
     line-height: 1.5rem;
-    max-width:50vw;
+    max-width:90%;
     text-align:left;
     margin-left:auto;
     margin-right:auto
