@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webmastery Tools</title>
+    <title>Webmastery Tools: Snippets</title>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -9,34 +9,29 @@
     <meta name="theme-color" content="#FFFFFF">
 
     <!--meta tags-->
-    <meta name="description" content="Knowing how quickly I go from calm, with a text editor available..."/>
+    <meta name="description" content="Just a couple bits of code to copy and paste into a project and adjust :D"/>
     <meta property="og:site_name" content="Netlify"/>
-    <meta property="og:title" content="Webmastery Tools"/>
+    <meta property="og:title" content="Webmastery Tools: Snippets"/>
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Knowing how quickly I go from calm, with a text editor available..."/>
+    <meta property="og:description" content="Just a couple bits of code to copy and paste into a project and adjust :D"/>
     <meta property="og:image" content="https://baileylockheart.github.io/images/webmasterytools.png"/>
     <meta property="og:image:height" content="800"/>
-    <meta property="og:url" content="https://lockheartlove.netlify.app/webmastery"/>
+    <meta property="og:url" content="https://lockheartlove.netlify.app/webmastery/snippets"/>
 
     <!--and the bird app bc they just have to be special-->
-    <meta name="twitter:title" content="Webmastery Tools" />
+    <meta name="twitter:title" content="Webmastery Tools: Snippets" />
     <meta name="twitter:image" content="https://baileylockheart.github.io/images/webmasterytools.png">
-    <meta name="twitter:description" content="Knowing how quickly I go from calm, with a text editor available...">
+    <meta name="twitter:description" content="Just a couple bits of code to copy and paste into a project and adjust :D">
     <meta property="twitter:card" content="summary_large_image"/>
 
     <link rel="canonical" href="https://lockheartlove.netlify.app/webmastery/snippets"/>
     <link rel="icon" type="image/x-icon" href="/images/webmastery/pencil.png">
-
     <link rel="stylesheet" type="text/css" href="/webmastery/style.css">
-
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <div id="preloader"></div>
 </head>
-<script>
-        function blinkieWarning() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    }
-</script>
 <body>
 <div id="container">
     <a id="title" href="/webmastery.html"><h1>Webmastery Tools</h1></a>
@@ -47,7 +42,7 @@
         •&nbsp;<a href="/webmastery/resources.html">Resources</a>&nbsp;•
     </div>
     <hr>
-    <h2 id="snippets">Code Snippets</h2>
+    <h2>Code Snippets</h2>
     <p>Just a couple bits of code to copy and paste into a project and adjust :D<br>They're all simple, but I find them helpful to have laid out ahead of time!</p>
     <hr style="background-color:grey">
     <label>Declaration + Meta Info (HTML)</label><br>
@@ -163,13 +158,14 @@ body, html {
     </textarea>
 <hr>
 <footer>
-    I had fun with this, hopefully this will be useful :D
+    <p>♡&nbsp;&nbsp;<a href="https://github.com/baileylockheart" target="_blank">Made by Bailey Lockheart</a>&nbsp;&nbsp;♡</p>
 </footer>
 </div>
-    <script>
-        function toggleButton(){
-        document.getElementById("toggle").style.display = "flex"
-        }
-    </script>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+</script>
 </body>
 </html>

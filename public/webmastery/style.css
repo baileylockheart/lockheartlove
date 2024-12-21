@@ -62,6 +62,7 @@ hr{
     margin-right:auto
 }
 footer{
+    margin-top: -1rem;
     padding:1.25rem;
 }
 a{
@@ -111,3 +112,17 @@ a#title{
 .show {
     display:block;
 }
+#preloader {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: grey
+      url("/images/oval.svg")
+      no-repeat center;
+    z-index: 9999;
+  }
