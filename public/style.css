@@ -4,7 +4,10 @@
   --main:#f7ebf7;
   --text: #5e0073;
   --light: #804ebd;
+  --lighter: #935adb;
   --accent:#fbc9ff;
+  --serif:"Alegreya", serif;
+  --sans:"Alegreya Sans", sans-serif;
 }
 html{
     height:100%;
@@ -30,7 +33,7 @@ body:before{
 }
 body{
     background-color: var(--bg);
-    font-family: "Alegreya sans", sans-serif;
+    font-family: var(--sans);
     color: var(--text);
     font-size:1rem;
     line-height:normal;
@@ -38,7 +41,7 @@ body{
 }
 body, html {
     scrollbar-width: auto;
-    scrollbar-color: #935adb var(--main);
+    scrollbar-color: var(--lighter) var(--main);
   }
 /*here we goooooo*/
 #container{
@@ -85,7 +88,7 @@ body, html {
     padding-bottom: 1px;
     margin-bottom: 10px;
     color:var(--main);
-    font-family: "Alegreya", serif;
+    font-family: var(--serif);
     font-size: 1.25rem;
 }
 #nav ul {
@@ -110,13 +113,13 @@ footer{
   }
 /*text*/
 h1{
-    font-family: "Alegreya", serif;
+    font-family: var(--serif);
     text-align: center;
     padding-left: auto;
     padding-right: auto;
 }
 h2{
-    font-family: "Alegreya", serif;
+    font-family: var(--serif);
     text-align: left;
     margin-top: -5px;
 }
@@ -128,28 +131,23 @@ a{
     text-decoration: inherit;
     color:inherit
 }
+#color{
+    text-align: inherit;
+    text-decoration: underline;
+    color:inherit;
+}
 #creditlink{
     color:var(--light);
     text-decoration: underline;
     font-size: 0.75rem;
     margin-top: -3rem;
 }
-#creditlink:hover{
-    color:var(--bg);
-    transition: 0.6s ease;
-    -webkit-transition: 0.6s ease
-}
-#color{
-    text-align: inherit;
-    text-decoration: underline;
-    color:inherit;
-}
 #color:hover{
     color: var(--light);
     transition: 0.6s ease;
     -webkit-transition: 0.6s ease
 }
-footer a:hover{
+#creditlink:hover, footer a:hover{
     color: var(--bg);
     transition: 0.6s ease;
     -webkit-transition: 0.6s ease
@@ -171,7 +169,7 @@ button {
     border-radius:5px;
     text-align: center;
     text-decoration: none;
-    font-family: "Alegreya Sans", sans-serif;
+    font-family: var(--sans);
     font-size:0.85rem;
     font-weight:700;
     margin: 0 0 3px 0;
@@ -187,7 +185,7 @@ textarea{
     background-color: var(--main);
     color: var(--text);
     border: dashed 3px var(--text);
-    font-family: "Alegreya Sans", sans-serif;
+    font-family: var(--sans);
     font-size:0.75rem;
     padding:2.75px
 }
@@ -198,7 +196,7 @@ svg{
     fill:var(--main)
 }
 ::selection {
-    background: #935adb;
+    background: var(--lighter);
     color:white
   }
 #preloader {
