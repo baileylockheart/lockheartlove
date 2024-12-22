@@ -168,6 +168,33 @@ body, html {
         right:-10px;
     }
 </style></textarea>
+    <hr style="background-color: grey;">
+    <label>Preloader (HTML/CSS/JS)</label><br>
+    <textarea id="mainta">
+<style>
+    #preloader {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: pink
+      url("https://files.catbox.moe/c5v91o.svg")
+      no-repeat center;
+    z-index: 9999;
+  }
+</style>
+<div id="preloader"></div>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+</script>
+    </textarea> 
 <hr>
 <footer>
     <p>♡&nbsp;&nbsp;<a href="https://github.com/baileylockheart" target="_blank">Made by Bailey Lockheart</a>&nbsp;&nbsp;♡</p>
