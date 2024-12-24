@@ -32,18 +32,19 @@
     <div id="preloader"></div>
 </head>
 <style>
-    #collectionsnav{
+    .collectionsnav{
+        margin-top: -4rem;
         font-size: 1.25rem;
     }
-    #collectionsnav a{
+    .collectionsnav a{
         text-decoration: underline;
     }
-    #collectionsnav a:hover{
+    .collectionsnav a:hover{
         color: var(--light);
         transition: 0.6s ease;
         -webkit-transition: 0.6s ease
     }
-    .center{
+    #center{
         text-align: center;
         padding-left: auto;
         padding-right: auto;
@@ -75,22 +76,31 @@
                     <div>
                         <h2>Collections!! I have things!!!</h2>
                         <p>I like collecting stuff, so I'm putting them all in these pages!</p>
-                        <div class="center">
+                        <div id="center">
                             <hr>
                             <h3>~ Physical Things ~<br><sup>as of now this is a small section ^^; </sup></h3>
-                            <span id="collectionsnav">
+                            <span class="collectionsnav">
                                 &#9825;&nbsp;<a href="/collections/albums.html">Albums</a>&nbsp;&#9825;&nbsp;
+                            </span>
+                            <br><br>
+                            
+                            <hr>
+                            <h3>~ Art ~<br><sup>things I've made!! </sup></h3>
+                            <span class="collectionsnav">
+                                &#9825;&nbsp;<a href="/collections/music.html">Music</a>
+                                &#9825;&nbsp;<a href="/collections/drawings.html">Drawings</a>
+                                &#9825;&nbsp;<a href="/collections/websites.html">Websites</a>&nbsp;&#9825;
                             </span>
                             <br><br>
                             <hr>
                             <h3>~ Subpages ~<br><sup>mini websites within this one! </sup></h3>
-                            <span id="collectionsnav">
+                            <span class="collectionsnav">
                                 &#9825;&nbsp;<a href="/webmastery.html">Webmastery Tools</a>&nbsp;&#9825;
                             </span>
                             <br><br>
                             <hr>
                             <h3>~ Digital Stuff ~<br><sup>of many varieties! </sup></h3>
-                            <span id="collectionsnav">
+                            <span class="collectionsnav">
                                 &#9825;&nbsp;<a href="/collections/feeds.html">Feeds</a>
                                 &nbsp;&#9825;&nbsp;<a href="/collections/quizzes.html">Quiz Results</a>
                                 <li class="hearts">&#9825;</li>
@@ -100,7 +110,7 @@
                             <br><br>
                             <hr>
                             <h3>~ Graphics ~<br><sup>warning for flashing/blinking images and eyestrain!</sup></h3>
-                            <span id="collectionsnav">
+                            <span class="collectionsnav">
                                 &#9825;&nbsp;<a href="/collections/blinkies.html">Blinkies</a>
                                 &nbsp;&#9825;&nbsp;<a href="/collections/buttons.html">Buttons</a>
                                 &nbsp;&#9825;&nbsp;<a href="/collections/stamps.html">Stamps</a>

@@ -66,7 +66,6 @@ body, html {
 }
 .textbox{
     padding: 15px;
-    overflow: hidden;
 }
 .boxtop{
     background-color: var(--light);

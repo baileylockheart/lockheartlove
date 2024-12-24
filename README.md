@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+12-23-2024: Added Art and Subpages to collections!
+
 12-22-2024: Changed blog from text files to HTML and added lots of graphics!
 
 12-20-2024: Moved webmastery tools to this site and gave it a big update!
