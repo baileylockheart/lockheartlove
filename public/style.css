@@ -185,8 +185,9 @@ textarea{
     color: var(--text);
     border: dashed 3px var(--text);
     font-family: var(--sans);
-    font-size:0.75rem;
-    padding:2.75px
+    font-size:0.7rem;
+    padding:2px;
+    height:23px
 }
 svg{
     width: 0.9rem;
