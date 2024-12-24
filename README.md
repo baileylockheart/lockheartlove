@@ -1,6 +1,6 @@
 # Lockheart Love ♡ [![Netlify Status](https://api.netlify.com/api/v1/badges/5848a38c-4b0c-4758-9a26-7d619c6d0ac6/deploy-status)](https://app.netlify.com/sites/lockheartlove/deploys)
 
-My personal website!!! very much a WIP, and intended to one day be put on neocities :3
+My personal website!!! I have it both on Neocities and Netlify in hopes of minimizing broken links! :3
 
 I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ.ᐟ
 
