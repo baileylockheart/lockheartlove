@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+12-25-2024: Added Userboxes, Guestbook, and Contact Page!
+
 12-23-2024: Added Art and Subpages to Collections, and moved to Neocities!!!
 
 12-22-2024: Changed Blog from text files to HTML and added lots of graphics!
