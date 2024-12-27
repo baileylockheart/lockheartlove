@@ -78,6 +78,18 @@ header a{
     font-family: var(--sans);
     text-align: center;
 }
+#bottom{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+    margin-top: -5px;
+    background-color: var(--altbg);
+    border-radius: 15px;
+    font-size: 1.25rem;
+    font-family: var(--sans);
+    text-align: center;
+}
 #repo{
     background-color: var(--altbg);
     border-radius: 15px;
