@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Lockheart Love: Source</title>
+    <title>Source Code: Lockheart Love</title>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -9,23 +9,23 @@
     <meta name="theme-color" content="#fbc9ff">
     
     <!--meta tags-->
-    <meta name="description" content="Source Code????"/>
+    <meta name="description" content="The main part of the site!"/>
     <meta property="og:site_name" content="Neocities"/>
-    <meta property="og:title" content="Lockheart Love: Source"/>
+    <meta property="og:title" content="Source Code: Lockheart Love"/>
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Source Code????"/>
+    <meta property="og:description" content="The main part of the site!"/>
     <meta property="og:image" content="https://i.imgur.com/SewwaVX.png"/>
     <meta property="og:image:height" content="800"/>
-    <meta property="og:url" content="https://lockheartlove.neocities.org/source"/>
+    <meta property="og:url" content="https://lockheartlove.neocities.org/source/lockheartlove"/>
     
     <!--and the bird app bc they just have to be special-->
-    <meta name="twitter:title" content="Lockheart Love: Source" />
+    <meta name="twitter:title" content="Source Code: Lockheart Love" />
     <meta name="twitter:image" content="https://i.imgur.com/SewwaVX.png">
-    <meta name="twitter:description" content="Source Code????">
+    <meta name="twitter:description" content="The main part of the site!">
     <meta property="twitter:card" content="summary_large_image"/>
     
-    <link rel="canonical" href="https://lockheartlove.neocities.org/source"/>
-    <link rel="icon" type="image/x-icon" href="/images/lockheartLOCK.png">
+    <link rel="canonical" href="https://lockheartlove.neocities.org/source/lockheartlove"/>
+    <link rel="icon" type="image/x-icon" href="https://files.catbox.moe/2wewk2.png">
     <link rel="stylesheet" type="text/css" href="/source/style.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script id="allIcons" src="/javascript/icons.js"></script>    
@@ -55,6 +55,10 @@ document.getElementById("myDropdownWebmastery").classList.toggle("show");
 <body>
     <header>&#9825;&nbsp;&nbsp;<a href="/source.html">Source Code</a>&nbsp;&nbsp;&#9825;</header>
     <div id="container">
+        <div id="top">The main part of the site! This is what everything else stems from :D</div>
+    </div>
+    <div id="container">
+        
         <div id="code">
             <div class="dropdown">
                 <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropBlog()">blog</a>
@@ -127,29 +131,9 @@ document.getElementById("myDropdownWebmastery").classList.toggle("show");
                 </div>
             </div>
             <hr>
-            <div class="dropdown">
-                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropSource()">source</a>
-                <div id="myDropdownSource" class="dropdown-content">
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/source/lockheartlove.html?theme=dracula";'>lockheartlove.html</a>
-                <br>
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/source/style.css?theme=dracula";'>style.css</a>
-                </div>
-            </div>
+            <svg class="folder3"><use xlink:href="#icon-folder"></use></svg> <a style="color:var(--lighter)" href="/source/source.html">source</a>
             <hr>
-            <div class="dropdown">
-                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropWebmastery()">webmastery</a>
-                <div id="myDropdownWebmastery" class="dropdown-content">
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webmastery/graphics.html?theme=dracula";'>graphics.html</a>
-                <br>
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webmastery/layouts.html?theme=dracula";'>layouts.html</a>
-                <br>
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webmastery/resources.html?theme=dracula";'>resources.html</a>
-                <br>
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webmastery/snippets.html?theme=dracula";'>snippets.html</a>
-                <br>
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webmastery/style.css?theme=dracula";'>style.css</a>
-                </div>
-            </div>
+            <svg class="folder3"><use xlink:href="#icon-folder"></use></svg> <a style="color:var(--lighter)" href="/source/webmastery.html">webmastery</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/404.html?theme=dracula";'>404.html</a>
             <hr>
@@ -170,8 +154,6 @@ document.getElementById("myDropdownWebmastery").classList.toggle("show");
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/source.html?theme=dracula";'>source.html</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/style.css?theme=dracula";'>style.css</a>
-            <hr>
-            <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webmastery.html?theme=dracula";'>webmastery.html</a>
         </div>
         <div id="repo">
             <iframe id="codeID" frameborder="0" scrolling="auto"></iframe>
