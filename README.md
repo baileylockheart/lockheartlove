@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+12-26-2024: Added Source Code!
+
 12-25-2024: Added Userboxes, Guestbook, and Contact Page!
 
 12-23-2024: Added Art and Subpages to Collections, and moved to Neocities!!!
