@@ -135,18 +135,12 @@ a{
     text-decoration: underline;
     color:inherit;
 }
-#creditlink{
-    color:var(--light);
-    text-decoration: underline;
-    font-size: 0.75rem;
-    margin-top: -3rem;
-}
 #color:hover{
     color: var(--light);
     transition: 0.6s ease;
     -webkit-transition: 0.6s ease
 }
-#creditlink:hover, footer a:hover{
+footer a:hover{
     color: var(--bg);
     transition: 0.6s ease;
     -webkit-transition: 0.6s ease
