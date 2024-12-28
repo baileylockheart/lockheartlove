@@ -7,7 +7,7 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
-12-27-2024: Moved webrings/fanlistings to home page, and added webcliques and a webgarden pot!
+12-27-2024: Moved webrings/fanlistings to home page, and added webcliques and a Greenhouse!
 
 12-26-2024: Added Source Code!
 
