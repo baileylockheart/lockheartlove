@@ -1,0 +1,138 @@
+
+.box{
+    margin: 0.16rem;
+}
+.textbox{
+    overflow: hidden;
+}
+#chatbox {
+    float:left;
+    width:15rem;
+    height:19.8rem
+}
+#webcliques {
+    float:left;
+    width:13.1rem;
+    height:19.8rem;
+    text-align: center;
+    margin-top: -7.6rem;
+}
+#favoritesong {
+    float:left;
+    width:15rem;
+    min-height:12rem;
+}
+#fw {
+    float:inline-start;
+    width:15rem;
+    min-height:5rem;
+    background-color: var(--light);
+    color:var(--main);
+}
+#updatebox {
+    float:left;
+    width:97%;
+    text-align: center;
+    height:18.7rem;
+}
+#buttonbox{
+    float:right
+}
+#imood{
+    background-color:var(--light);
+    padding:5px;
+}
+#updates{
+    font-size: 1.05rem;
+    text-align: start;
+    padding-right: 15px;
+}
+#updates a, #smaller a{
+    text-decoration: underline;
+}
+#updates a:hover, #smaller a:hover{
+    color: var(--lighter);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
+#smaller{
+    padding: 20px auto 0px;
+    line-height: 1.5rem;
+    height:18.265rem;
+    overflow-y: auto;
+    margin-top: -10px;
+    scrollbar-width: thin;
+    padding-right: 10px;
+}
+#updates{
+    height:17.2rem;
+    overflow-y: auto;
+    margin-top: -10px;
+    scrollbar-width: thin;
+    padding-right: 10px;
+}
+#nuthead{
+    margin: 10px auto -5px;
+}
+#vocaring a{
+    text-decoration: none;
+}
+@media (max-width:940px){
+    #updatebox{
+        float:none;
+        height:min-content;
+        width:96%;
+        margin-top: 0.25rem;
+    }
+    #chatbox, #favoritesong, #fw{
+        width:46%
+    }
+    #webcliques{
+        float:none;
+        width:96%;
+        margin-top: 21.75rem;
+    }
+    #fw{
+        min-height:6.25rem
+    }
+}
+@media (max-width: 910px){
+    #buttonbox{
+        float:left;
+        text-align: center;
+        width:98%;
+        padding:2px;
+    }
+}
+@media (max-width: 795px){
+#chatbox, #webcliques, #favoritesong, #fw{
+    float:none;
+    width:95%
+}
+#fw{
+    min-height: fit-content;
+}
+#updatebox{
+    width: 95%;
+    margin-top: 0;
+}
+#buttonbox{
+    width:97%;
+    float: left;
+}
+#updates, #webcliques{
+    font-size: 1.15rem;
+}
+#webcliques{
+    margin-top: 0;
+}
+#nuthead{
+    margin: 10px auto -5px;}
+#vocasurf{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: fit-content;
+    text-decoration: none;
+}
+}

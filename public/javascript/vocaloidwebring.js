@@ -6,9 +6,8 @@ document.getElementById("vocaring").innerHTML = `
 }
 
 #vocaring{
-    width:fit-content;
     height:fit-content;
-    margin:0 10px;
+    margin:0 5px;
 }
 
 .vocacontainer::selection {
@@ -22,12 +21,13 @@ document.getElementById("vocaring").innerHTML = `
 }
 
 .vocacontainer{
-    width:210px;
-    height:90px;
+    width:100%;
+    height:80px;
     padding:5px;
     background-color:#c9eff2;
     border:4px solid #4cd4de;
     box-sizing:border-box;
+    margin-bottom:5px;
 }
 
 .vocacontainer table {

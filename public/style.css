@@ -221,4 +221,10 @@ svg{
     #nav ul{
         margin-left: -2.75rem;
     }
+    .lefttext{
+        font-size: 1.15rem;
+    }
+    p{
+        font-size: 1.15rem;
+    }
 }
