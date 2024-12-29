@@ -3,6 +3,7 @@ document.getElementById("nav").innerHTML = `
     <ul>
         <li><a href="/about.html">About</a></li>
         <li><a href="/collections.html">Collections</a></li>
+        <li><a href="/foryou.html">For You</a></li>
         <li><a href="/blog.html">Blog</a></li>
         <li><a href="/links.html">Links</a></li>
     </ul>
