@@ -79,6 +79,11 @@
 #lh{
     margin-top: 10px;
 }
+#time{
+    border: solid 2px var(--text);
+    padding-top:3px;
+    background-color: lightgray;
+}
 @media (max-width:940px){
     #updatebox{
         float:none;
@@ -110,7 +115,7 @@
         float:left;
         text-align: center;
         width:98%;
-        padding:2px;
+        padding:2px 2px 0px;
     }
 }
 @media (max-width: 795px){
