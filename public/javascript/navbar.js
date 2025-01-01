@@ -42,7 +42,7 @@ document.getElementById("nav").innerHTML = `
                 <a href="/collections/cliques.html">Cliques</a>
                 <a href="/graphics.html">Graphics</a>
                 <a href="/recs.html">Recs</a>
-                <a href="/source.html">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
+                <a href="/source.html" target="_blank">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/themes.html">Themes</a>
                 <a href="/webmastery.html" target="_blank">Webmastery <svg><use xlink:href="#icon-link"></use></svg></a>
             </div>
