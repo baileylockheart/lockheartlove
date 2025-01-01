@@ -1,0 +1,96 @@
+.box{
+    margin: 0.16rem;
+}
+.textbox{
+    overflow: hidden;
+}
+#cookie{
+    float:left;
+    padding:0.7rem;
+    
+}
+img{
+    border-radius: 15px;
+}
+#otherbox {
+    float:left;
+    width:97%;
+    text-align: center;
+    height:17rem;
+}
+#other{
+    display: flex;
+    font-size: 1.05rem;
+    text-align: start;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+#other a{
+    text-decoration: underline;
+}
+#other a:hover{
+    color: var(--lighter);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
+#other{
+    height:12rem;
+    overflow-y: auto;
+    margin: -10px auto;
+    scrollbar-width: thin;
+}
+.scrollbox{
+    width:10rem;
+    height:12rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    text-align: center;
+    margin: 0 auto;
+}
+.scrollbox p{
+    line-height: 0.5rem;
+}
+.scrollbox h2, .scrollbox p{
+    text-align: left;
+}
+svg{
+    fill:var(--text);
+    margin-top: -75px;
+}
+@media (max-width:940px){
+    #otherbox{
+        float:none;
+        height:min-content;
+        width:96%;
+        margin-top: 0.25rem;
+    }
+    #buttonbox{
+        float:none;
+        text-align: center;
+        width:98%;
+        padding:2px 2px 0px;
+    }
+}
+@media (max-width: 795px){
+#otherbox{
+    width: 95%;
+}
+#other{
+    font-size: 1.15rem;
+}
+#buttonbox{
+    width:96%;
+    margin-right: 0.75rem;
+}
+#cookie{float:right}
+#ending{
+    display:flex;
+}
+#other{
+    display: block;
+}
+.scrollbox{
+    overflow-y:visible;
+    height:max-content
+}
+}
