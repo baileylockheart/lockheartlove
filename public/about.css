@@ -53,6 +53,9 @@ img{
 .scrollbox h2, .scrollbox p{
     text-align: left;
 }
+#buttonbox{
+    float:right
+}
 svg{
     fill:var(--text);
     margin-top: -75px;
@@ -65,7 +68,7 @@ svg{
         margin-top: 0.25rem;
     }
     #buttonbox{
-        float:none;
+        float:left;
         text-align: center;
         width:98%;
         padding:2px 2px 0px;
