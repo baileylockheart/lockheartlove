@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lockheart Love: Stray Kids</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light only"/>
+    <meta name="theme-color" content="#FD2A2B">
+    
+    <!--meta tags-->
+    <meta name="description" content="New years thoughts"/>
+    <meta property="og:site_name" content="Neocities"/>
+    <meta property="og:title" content="Lockheart Love: Stray Kids"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="New years thoughts"/>
+    <meta property="og:image" content="https://i.imgur.com/SewwaVX.png"/>
+    <meta property="og:image:height" content="800"/>
+    <meta property="og:url" content="https://lockheartlove.neocities.org/shrines/straykids"/>
+    
+    <!--and the bird app bc they just have to be special-->
+    <meta name="twitter:title" content="Lockheart Love: Stray Kids" />
+    <meta name="twitter:image" content="https://i.imgur.com/SewwaVX.png">
+    <meta name="twitter:description" content="New years thoughts">
+    <meta property="twitter:card" content="summary_large_image"/>
+    
+    <link rel="canonical" href="https://lockheartlove.neocities.org/shrines/straykids"/>
+    <link rel="icon" type="image/x-icon" href="https://jaysplace.neocities.org/images/shrines/Stray-Kids-Logo.ico">
+
+    <div id="preloader"></div>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');    
+:root{
+  --bg:#E02D2A;
+  --altbg:#f29f9f;
+  --altbg2:#f07f7f;
+  --altbg3:#ceb8b8;
+  --main:#000;
+  --light: #a32524;
+  --lighter: #e10000;
+  --serif:"Noto Serif", serif;
+}
+html{
+    height:100%;
+    width:100%;
+    font-size: 18px;
+}
+body:before{
+    background-attachment: scroll;
+    content: '';
+    display: block;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    left:0;
+    top:0;
+    transform: scale(1);
+    z-index: -700;
+    background-image: linear-gradient(to right, #C71B16, #F93F3E);
+}
+body{
+    background-color: var(--bg);
+    font-family: var(--serif);
+    color: var(--main);
+    font-size:1rem;
+    line-height:normal;
+    font-weight:150;
+}
+body, html {
+    scrollbar-width: auto;
+    scrollbar-color:  #b36767 #a32524;
+  }
+/*here we goooooo*/
+#container{
+    display: flex;
+    max-width:980px;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:15px
+}
+header{
+    max-width:944px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+    margin-bottom: 10px;
+    background-color: var(--altbg3);
+    border-radius: 5px;
+    border: solid 2px black;
+    font-size: 1.75rem;
+    font-family: var(--serif);
+    text-align: center;
+}
+#logo{
+    margin-bottom: -0.15rem;
+    margin-right: 1rem;
+}
+#logo:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.02); 
+}
+#bottom{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+    margin-top: -5px;
+    background-color: var(--altbg);
+    border-radius: 5px;
+    border: solid 2px black;
+    font-size: 1.25rem;
+    font-family: var(--sans);
+    text-align: center;
+}
+#main{
+    background-color: var(--altbg);
+    border-radius: 5px;
+    border: solid 2px black;
+    width: 100%;
+    height:21rem;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 10px;
+    text-align: start;
+    overflow-y: scroll;
+}
+/*sidebar*/
+#sidebar{
+    background-color: var(--altbg2);
+    border-radius: 5px;
+    border: solid 2px black;
+    width:16rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+#sidebar h2{
+    font-size: 1.2rem;
+}
+/*text*/
+h1{
+    font-family: var(--serif);
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+h2{
+    font-family: var(--serif);
+    text-align: center;
+    margin-top: 5px;
+}
+a{
+    text-align: inherit;
+    text-decoration: underline;
+    color:inherit;
+}
+a:hover{
+    color: var(--light);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
+/*fun stuff*/
+iframe{
+    border-radius: 12px;
+    width:300px;
+    height:360px
+}
+#spotify{
+    height: 62px;
+    background-color: var(--altbg);
+    border: dashed 2px black;
+}
+::selection {
+    background: var(--altbg3);
+    color:white
+  }
+.static {
+  position:absolute;
+  background: var(--altbg2);
+}
+
+.static:hover {
+  opacity:0;
+}
+#preloader {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: #9d5959
+      url("/images/shrines/straykids/3racha.gif")
+      no-repeat center;
+    z-index: 9999;
+  }
+/*media querey*/
+@media (max-width: 768px){
+    html{
+        font-size:17px
+    }
+    #container{
+        display: block;
+        margin-left: 1rem;
+        margin-right: 2.75rem;}
+    header{
+        margin-left: 1rem;
+        margin-right: 0.75rem;
+    }
+    #sidebar{
+        width: 100%;
+        font-size: 1.15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main{
+        width: 100%;
+        height:30rem;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    iframe{
+        width: 100%;
+    } 
+}
+</style>
+<body>
+    <header><a href="/shrines.html"><img id="logo" src="/images/shrines/straykids/Stray-Kids-Logo-Spelled.png" width="120"></a><img id="spotify" src="https://spotify-github-profile.kittinanx.com/api/view?uid=svuk7vvdgdtfjj2sf6fqbqu4p&cover_image=true&theme=natemoo-re&show_offline=true&background_color=121212&interchange=false&bar_color=ff0000&bar_color_cover=false"></header>
+    <div id="container">
+        <div id="sidebar">
+            <h2>Related Things:</h2>
+            <p><a href="https://straykids.jype.com/" target="_blank">Stray Kids Official Website!</a></p>
+            <p><a href="https://www.youtube.com/watch?v=QqCkXVRCdZw" target="_blank">One of my favorite SKZ playlists (Chill)</a></p>
+            <p><a href="https://www.youtube.com/watch?v=OdGqUrsVpG0" target="_blank">One of my favorite SKZ playlists (Hype)</a></p>
+            <p><a href="https://youtu.be/UcvqDaXHing" target="_blank">
+            The Zoom call video that got me through finals!</a></p>
+            <img class="static" src="/images/shrines/straykids/no-blinking.png" width="150"><img class="active" src="/images/blinkies/jeogiyo-noona.gif">
+        </div>
+    <div id="main">
+        <h2><i>"Step out, we are STRAY KIDS!"</i><br>~</h2>
+        <p>Hello and welcome to the Stray Kids shrine! This is a mobile-responsive remaster of my old one, so the stuff that's coming up was written in 2023! Anyway, time to talk about SKZ stuff! :D</p>
+        <p>When I first found Stray Kids, I didn't really seek bands/music groups, much less specifically boy groups. I mean, there were some I'd listen to passively, but I didn't go looking. Right from the beginning, Stray Kids was different, mainly because of how I found them. Most other groups I ended up listening to, I found from friend recommendations or from top 20 lists. As for Stray Kids, I first found them when Felix's iconic line in "God's Menu" was trending. I mostly just listened to that song and didn't bother looking deeper for quite some time - obviously a mistake.</p>
+        <p>It was only just before The Sound came out that I really started paying attention - I know, that's an annoyingly large gap. I actually get mad at myself for not looking deeper sooner when I think about it for too long, so I won't linger on that. Anyway, upon going in for real, I wasn't used to the idea of K-pop in general, and had little to no idea as to what a "bias" was, but I figured mine would end up being Felix, since he was my technical introduction to the group, and the only one I could identify by name at that point. I spent several hours spread over three days just studying their names and faces, since I've always been bad at keeping track of who's who in groups larger than five. This also applies to family gatherings, and yes, it has caused some problems. Anyway, as I did all of that, I also looked at compilations of moments featuring each of the members, so I could get better-acquainted with them. I strongly latched onto the chaos, and I wanted more.</p>
+        <p>Getting into their music was simultaneously very easy and very hard for me. I literally couldn't find a single song that I didn't like as far as the melody and sound goes, but I was still relatively new to having to read captions in order to understand music, y'know? Most non-English songs I listened to were either covers of songs I already knew, or were in languages I was somewhat familiar with, so it was a new territory for me. I think the song that made me realize how well SKZ portrays emotion was “Scars”, which I still really love. That pulled me into looking at their writing process - despite having looked into each of the members, it hadn't registered in my head that SKZ's music was written and produced by the members. This was how I got better acquainted with 3racha! Knowing that the members actually write and produce the songs themselves made me like them even more.</p>
+        <video controls width="160px" style="float:right;padding: 0.4rem;">
+            <source src="https://file.garden/ZrZSgsrYfQXsO7QH/videos/chan-when-I-was-in-school.mp4" type="video/mp4">
+        </video>
+        <p>The more I learned about the members, the more I… leaned on them, I guess? I basically dove headfirst into all the videos I could find, and inevitably found something about each one of the members comforting. I got into the group in the final quarter of the school year, and I was definitely hooked by the time finals rolled around, and I can confidently say that I wouldn't have passed finals if it weren't for Stray Kids. I say this because one, this video right here reminded me of the fact that I was a straight A student before the 2022-2023 school year, so I could totally pull through, and because two, I used a zoom call of the members for body doubling in a way that wouldn't feel pressuring, but also wouldn't feel like I had the wiggle room to ignore it - the people who take up 90% of my brain are right there, how could I slack off now, right? Between motivation, reminders, and more emotional validation than I ever knew I needed, Stray Kids basically carried me through the past three months.</p>
+        <p>In any case, SKZ's quickly becoming a special interest of mine, and I'm actually very happy about it. As of now, despite how recently I've gotten into the group (I can't believe it's only been about three months as I write this), they're one of my top artists on Spotify, I've got a couple (knockoff) SKZOOs, and I'm actually subbed to Felix's Bubble. I'm decidedly OT8, but I can only afford so much 😭 Either way, I'm very glad I found Stray Kids when I did, although I wish I'd found them earlier as well. While I love all the songs of theirs that I've heard, my favorite albums are below! ♥</p>
+      </div>
+    </div>
+    <div id="container">
+        <div id="bottom">
+            <iframe src="https://open.spotify.com/embed/album/3IGZmUJql41Q2FSIBweSsz?utm_source=generator" frameBorder="0"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/558tpdCejjVQNFAumRAeQj?utm_source=generator" frameBorder="0"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/3WdsoMKRqtw5Sgg67YrpnY?utm_source=generator" frameBorder="0"></iframe>
+        </div>
+    </div>
+    <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function () {
+              loader.style.display = "none";
+            });
+    </script>
+</body>
+</html>

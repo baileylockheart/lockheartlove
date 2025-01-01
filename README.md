@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+1-1-2025: Made a responsive Stray Kids Shrine!
+
 12-31-2024: New navbar! javascript more required than ever but MUCH better navigation imo! also added Recs!
 
 12-28-2024: Made a For You section!
