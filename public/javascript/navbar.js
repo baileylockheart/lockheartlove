@@ -41,6 +41,7 @@ document.getElementById("nav").innerHTML = `
                 <a href="/foryou.html">See All</a>
                 <a href="/collections/cliques.html">Cliques</a>
                 <a href="/graphics.html">Graphics</a>
+                <a href="/recs.html">Recs</a>
                 <a href="/source.html">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/themes.html">Themes</a>
                 <a href="/webmastery.html" target="_blank">Webmastery <svg><use xlink:href="#icon-link"></use></svg></a>
@@ -52,7 +53,7 @@ document.getElementById("nav").innerHTML = `
                 <a href="/collections.html">Collections</a>
                 <a href="/collections/feeds.html">Feeds</a>
                 <a href="/collections/greenhouse.html">Greenhouse</a>
-                <a href="/collections/shrines.html">Shrines</a>
+                <a href="/shrines.html">Shrines</a>
                 <a href="/collections/virtualpets.html">Virtual Pets</a>
             </div>
         </div> 
