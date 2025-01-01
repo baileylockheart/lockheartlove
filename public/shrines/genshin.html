@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lockheart Love: Genshin Impact</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light only"/>
+    <meta name="theme-color" content="#99C2E4">
+    
+    <!--meta tags-->
+    <meta name="description" content="Hello and welcome to my shrine for Genshin Impact!"/>
+    <meta property="og:site_name" content="Neocities"/>
+    <meta property="og:title" content="Lockheart Love: Genshin Impact"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Hello and welcome to my shrine for Genshin Impact!"/>
+    <meta property="og:image" content="https://lockheartlove.netlify.app/images/shrines/genshin/genshin-card.png"/>
+    <meta property="og:image:height" content="800"/>
+    <meta property="og:url" content="https://lockheartlove.neocities.org/shrines/genshin"/>
+    
+    <!--and the bird app bc they just have to be special-->
+    <meta name="twitter:title" content="Lockheart Love: Genshin Impact" />
+    <meta name="twitter:image" content="https://lockheartlove.netlify.app/images/shrines/genshin/genshin-card.png">
+    <meta name="twitter:description" content="Hello and welcome to my shrine for Genshin Impact!">
+    <meta property="twitter:card" content="summary_large_image"/>
+    
+    <link rel="canonical" href="https://lockheartlove.neocities.org/shrines/genshin"/>
+    <link rel="icon" type="image/x-icon" href="/images/shrines/genshin/genshin-impact-logo.png">
+
+    <div id="preloader"></div>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap'); 
+:root{
+  --bg:#99C2E4;
+  --altbg:#F2D39F;
+  --altbg2:#D8B072;
+  --altbg3:#C7A678;
+  --main:#000;
+  --light: #000;
+  --lighter: #ffe5b9;
+  --serif:"Signika",sans-serif;
+}
+html{
+    height:100%;
+    width:100%;
+    font-size: 18px;
+}
+body:before{
+    background-attachment: scroll;
+    content: '';
+    display: block;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    left:0;
+    top:0;
+    transform: scale(1);
+    z-index: -700;
+    background-image: url(/images/shrines/genshin/genshin-bg.png);
+    background-size: cover, auto;
+    background-position: center, 0% 0%;
+    background-repeat: no-repeat, repeat;
+}
+body{
+    background-color: var(--bg);
+    font-family: var(--serif);
+    color: var(--main);
+    font-size:1rem;
+    line-height:normal;
+    font-weight:150;
+}
+body, html {
+    scrollbar-width: auto;
+    scrollbar-color:  var(--altbg2) var(--lighter);
+  }
+/*here we goooooo*/
+#container{
+    display: flex;
+    max-width:1000px;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:15px
+}
+header{
+    max-width:964px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+    margin-bottom: 10px;
+    background-color: var(--altbg3);
+    border-radius: 5px;
+    border: solid 2px black;
+    font-size: 2.5rem;
+    font-family: var(--serif);
+    text-align: center;
+}
+#logo{
+    margin-bottom: -0.15rem;
+    margin-right: 1rem;
+}
+#logo:hover{
+    transition: all .2s ease-out;
+    transform: scale(1.02); 
+}
+#bottom{
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+    margin-top: -5px;
+    background-color: var(--altbg);
+    border-radius: 5px;
+    border: solid 2px black;
+    font-size: 1.25rem;
+    font-family: var(--sans);
+    text-align: center;
+}
+#main{
+    background-color: var(--altbg);
+    border-radius: 5px;
+    border: solid 2px black;
+    width: 100%;
+    height:20rem;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 10px;
+    text-align: start;
+    overflow-y: scroll;
+}
+/*sidebar*/
+#sidebar{
+    background-color: var(--altbg2);
+    border-radius: 5px;
+    border: solid 2px black;
+    width:14rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+#sidebar h2{
+    font-size: 1.2rem;
+}
+/*text*/
+h1{
+    font-family: var(--serif);
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+h2{
+    font-family: var(--serif);
+    text-align: center;
+    margin-top: 5px;
+}
+header a{
+    text-decoration: none;
+}
+a{
+    text-align: inherit;
+    text-decoration: underline;
+    color:inherit;
+}
+a:hover{
+    color: var(--lighter);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
+/*fun stuff*/
+iframe{
+    border-radius: 12px;
+    width:300px;
+    height:360px
+}
+#spotify{
+    height: 62px;
+    background-color: var(--altbg);
+    border: dashed 2px black;
+}
+::selection {
+    background: var(--bg);
+    color:white
+  }
+#preloader {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: var(--bg)
+      url("/images/shrines/genshin/loadingbar.ong")
+      no-repeat center;
+    z-index: 9999;
+  }
+/*image slideshow thingy*/
+.slide{width: 100%;}
+
+.tabcontent {
+    display: none;
+    padding: 10px 0;
+    border-top: none;
+    padding-bottom:15px;
+} 
+.tabcontent:target{
+    display:block
+}
+.buttons a{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;}
+@supports selector(:not(:has(+ *))) {
+body:not(body:has(.tabcontent:target)) .home {
+    display: block;
+      }
+}
+/*media querey*/
+@media (max-width: 768px){
+    html{
+        font-size:17px
+    }
+    #container{
+        display: block;
+        margin-left: 1rem;
+        margin-right: 2.75rem;}
+    header{
+        margin-left: 1rem;
+        margin-right: 0.75rem;
+    }
+    #sidebar{
+        width: 100%;
+        font-size: 1.15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main{
+        width: 100%;
+        height:30rem;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    iframe{
+        width: 100%;
+    } 
+}
+</style>
+<body>
+    <header><a href="/shrines.html">Genshin Impact</a></header>
+    <div id="container">
+        <div id="sidebar">
+            <h2>Related Things:</h2>
+            <p><a href="https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481" target="_blank">Daily Check-In!</a></p>
+            <p><a href="https://genshin.hoyoverse.com/en/">Genshin Impact Official Website!</a></p>
+            <p><a href="https://www.maddsbuckley.com/" target="_blank">Madds Buckley, the person in the video!</a></p>
+            <p><a href="https://genshin.gg/" target="_blank">Genshin.GG, a guide for characters and teams!</a></p>
+            <p><a href="https://getonstream.com/best-genshin-impact-settings-for-a-low-end-pc/" target="_blank">How to get Genshin to run smoothly on low-end computers!</a></p>
+        </div>
+    <div id="main">
+        <p>Hello and welcome to my shrine for Genshin Impact! This is a mobile-responsive remaster of my old one, so the stuff that's coming up was written in 2023!</p>
+        <video controls width="160px" style="float:right;padding: 0.4rem;">
+            <source src="https://file.garden/ZrZSgsrYfQXsO7QH/videos/Dragonspine%20Tavern%20Song" type="video/mp4">
+        </video>
+        <p>I first started wanting to play because of this video. Because of it, the first character I ever got attached to was Venti. I was determined to play the game and get him. There were a solid few months where I hadn't been able to play Genshin Impact since my phone was incompatible and the only laptop I had was a Macbook Pro from 2012. So, I got a laptop "for school", and made sure to find an option that could run the game.</p>
+        <p>During that entire waiting period, I'd been knee-deep in content about the game, and especially the character, Venti - as someone who was never particularly into the fantasy genre, I was new to the idea of bards, but I really liked it.</p>
+        <p>Luckily enough, Venti was my first non-standard five star character! I'm a free-to-play player, since I can't really afford to one, spend money on a free game, and two, get used to doing so. This has led to a lot of pain after losing 50/50s, but I know it's for the best.</p>
+        <p>I think the funniest (and most painful) example of this was probably when Childe's banner was up, so I spent 120+ wishes that I'd been saving up specifically for him. He was the first character I'd prefarmed a decent number of materials and decent quality of artifacts for, as I didn't know how to do so for Venti. I lost the 50/50 to QiQi, and still didn't get him after that. His banner ended and the Wanderer's came up. I was legitimately upset that I hadn't gotten Childe. I used one of the wishes I'd gotten from the update primos on the Wanderer's banner. I got him on the first wish. The first wish. It was a very bittersweet moment for me.</p>
+        <p>Anyway, enough about my confusing luck, more about my thoughts on this game. When I first started, I was kind of just pressing all the buttons that I knew did things, in hopes of doing the right thing. Still, I pick things up quickly and ended up figuring out what I had to do. Now that I understand it, though? I think Genshin has really fun gameplay, really endearing characters, and an interesting story. Plus, the graphics are brilliant in my opinion, and I literally have them on some of the lowest settings in order to ensure my laptop doesn't explode. The game is vibrant and interesting, and overall just really cool.</p>
+        <p>If I had to pick the game that first got me into video games, it would be Kingdom Hearts, and if you've played both games, I think it'll be understandable why I like Genshin so much from a gameplay perspective. I'm not one of those gamers with a very in-depth understanding of game mechanics, but I am someone who appreciates large explorable areas and action that doesn't pull you into a seperate screen.</p>
+        <p>The world of Teyvat was also really interesting to me from the beginning. I was very confused about how to pronounce it, but that's beside the point. Not only is the world beautiful with many distinct areas, but it's full of life. Lots of games have weak mobs scattered throughout, but I don't think I've seen any games where the NPCs and even enemies have such fleshed-out lives. Between the sleeping hilichurls, the dancing eremites, and the hundreds of little storylines and interactions weaving together all the NPCs. There are world quests that I've done purely because I recognized the NPC by name and liked their personality - that's how detailed this world it. Teyvat is full of life, and I really enjoy getting to explore it.</p>
+        <p>Genshin Impact is definitely one of, if not my absolute favorite game as of now. It's a really fun game, and I think it's impacted me as a person, as well - it reignited my interest in many things I'd temporarily left behind, ranging from interesting magic systems to music and even conlangs. It has an interesting world to escape into, and a gacha system to <s>break your heart</s> help you get some of your favorite characters! Also, below this text window, I've got some of my best (albeit not overly impressive) builds!</p>
+      </div>
+    </div>
+    <div id="container">
+        <div id="bottom">
+            <div class="slider">
+                  <img id="slide-1" src="/images/shrines/genshin/Scara.png" class="slide tabcontent home"/>
+                  <img id="slide-2" src="/images/shrines/genshin/Kaeya.png" class="slide tabcontent"/>
+                  <img id="slide-3" src="/images/shrines/genshin/Venti.png" class="slide tabcontent"/>
+                <div class="buttons">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+          loader.style.display = "none";
+        });
+        var hashLinks = document.querySelectorAll("a[href^='#']");
+        [].forEach.call(hashLinks, function (link) {
+          link.addEventListener("click", function (event) {
+            event.preventDefault();
+            history.pushState({}, "", link.href);
+            history.pushState({}, "", link.href);
+            history.back();
+          });
+        });
+    </script>
+</body>
+</html>
