@@ -144,3 +144,9 @@
     margin: 0px auto -5px;}
 
 }
+@media (max-width: 390px){
+    #vocasurf{
+        display: block;
+    }
+    
+}
