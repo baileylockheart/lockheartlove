@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+1-4-2025: Added some new graphics and fixed the Links section to group my neocities mutuals with other neighbors!
+
 1-1-2025: Made responsive Stray Kids and Genshin Impact shrines!
 
 12-31-2024: New navbar! javascript more required than ever but MUCH better navigation imo! also added Recs!
