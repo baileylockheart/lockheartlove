@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+1-5-2024: Added an Anime Recs section! It's mostly just a watchlist rn, I'll fix it later :'D
+
 1-4-2025: Added some new graphics and fixed the Links section to group my neocities mutuals with other neighbors!
 
 1-1-2025: Made responsive Stray Kids and Genshin Impact shrines!
