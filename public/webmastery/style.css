@@ -54,6 +54,12 @@ hr{
     font-size:0.75rem;
 
 }
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
 .toc{
     line-height: 1.5rem;
     max-width:90%;
