@@ -32,6 +32,7 @@ document.getElementById("nav").innerHTML = `
                 <a href="/collections/drawings.html">Drawings</a>
                 <a href="/collections/mymusic.html">My Music</a>
                 <a href="/collections/quizzes.html">Quiz Results</a>
+                <a href="/collections/videomanager.html">Video Manager</a>
                 <a href="/collections/websites.html">Websites</a>
             </div>
         </div> 

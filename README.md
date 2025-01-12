@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+1-12-2024: Added a Video Manager!
+
 1-5-2024: Added an Anime Recs section! Also fixed file organization to make things easier on my end :3
 
 1-4-2025: Added some new graphics and fixed the Links section to group my neocities mutuals with other neighbors!
