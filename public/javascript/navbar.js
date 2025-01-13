@@ -43,7 +43,6 @@ document.getElementById("nav").innerHTML = `
                 <a href="/collections/cliques.html">Cliques</a>
                 <a href="/graphics/index.html">Graphics</a>
                 <a href="/recs/index.html">Recs</a>
-                <a href="/source/index.html" target="_blank">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/themes.html">Themes</a>
                 <a href="/webmastery/index.html" target="_blank">Webmastery <svg><use xlink:href="#icon-link"></use></svg></a>
             </div>
@@ -51,10 +50,11 @@ document.getElementById("nav").innerHTML = `
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forSite()">For the Site</a></li>
             <div id="dropdownSite" class="dropdown-content">
-                <a href="/collections.html">Collections</a>
+                <a href="/collections/index.html">Collections</a>
                 <a href="/collections/feeds.html">Feeds</a>
                 <a href="/collections/greenhouse.html">Greenhouse</a>
                 <a href="/shrines/index.html">Shrines</a>
+                <a href="/source/index.html" target="_blank">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/virtualpets.html">Virtual Pets</a>
             </div>
         </div> 

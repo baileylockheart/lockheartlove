@@ -84,6 +84,13 @@
     padding-top:3px;
     background-color: lightgray;
 }
+#journalring{          
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px auto 0px;
+}
 @media (max-width:940px){
     #updatebox{
         float:none;
