@@ -39,6 +39,9 @@
         function gifWarning() {
     document.getElementById("myGifs").classList.toggle("show");
     }
+            function shinyWarning() {
+    document.getElementById("shinyGifs").classList.toggle("show");
+    }
 </script>
 <body>
 <div id="container">
@@ -157,9 +160,22 @@
     <img src="/images/buttons/HOP.png" alt="Stream HOP now!">
     <br>
     <hr style="background-color:lightgrey">
+    <p>Shiny Buttons</p>
+    <div class="dropdown">
+        <button onclick="shinyWarning()" class="dropbtn">Shiny Buttons!</button>
+        <div id="shinyGifs" class="dropdown-content"><br>
+            <img src="/images/buttons/shiny/imvu.gif" alt="IMVU Button try one">
+            <img src="/images/buttons/shiny/maddsBshine.gif" alt="Madds Buckley">
+            <img src="/images/buttons/shiny/webmaster.gif" alt="Webmaster">
+            <img src="/images/buttons/shiny/akitoKinnie.gif" alt="Akito Kinnie">
+            <img src="/images/buttons/shiny/jinx.gif" alt="Jinx">
+            <img src="/images/buttons/shiny/dogboy.gif" alt="Dogboy">
+        </div>
+      </div> 
+    <hr style="background-color:lightgrey">
     <p>Blinkies</p>
     <div class="dropdown">
-        <button onclick="blinkieWarning()" class="dropbtn">Flashing/Blinking!!</button>
+        <button onclick="blinkieWarning()" class="dropbtn">Blinkies!</button>
         <div id="myDropdown" class="dropdown-content">
             <p>Ones I made:</p>
                 <img src="/images/blinkies/shetheyvoidmasc.gif" alt="She/They Voidmasc" height="20" width="150">

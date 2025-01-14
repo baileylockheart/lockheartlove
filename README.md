@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+1-14-2024: Added Shiny Buttons and fixed some incorrect metadata!
+
 1-13-2024: Added in Game Recs and my first Blog Post of the new year!
 
 1-12-2024: Added new neighbors, a link to my Ko-fi, and a Video Manager!
