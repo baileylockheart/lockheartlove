@@ -100,6 +100,11 @@
 .top a{
     margin:1px 2px;
 }
+#musicring{
+    display: block;
+    margin: 5px auto;
+    width:104px;
+}
 @media (max-width:940px){
     #updatebox{
         float:none;
