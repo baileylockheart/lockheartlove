@@ -30,6 +30,7 @@ document.getElementById("nav").innerHTML = `
                 <li><a href="/about.html">About Me</a></li>
                 <a href="/collections/albums.html">Albums</a>
                 <a href="/collections/drawings.html">Drawings</a>
+                <a href="/collections/lists.html">Lists</a>
                 <a href="/collections/mymusic.html">My Music</a>
                 <a href="/collections/quizzes.html">Quiz Results</a>
                 <a href="/collections/videomanager.html">Video Manager</a>
