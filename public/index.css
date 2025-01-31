@@ -109,6 +109,27 @@
     font-size: 2rem;
 }
 #musicring a{text-decoration: none;}
+#webmasteringbtn{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#webmasteringbtn img{
+    width:88px;
+    height:31px;
+}
+#webmasteringbtn a{
+    color: #2da5d8;
+    text-decoration: none;
+}
+#webmasteringbtn a:hover{
+    color: #fa8c8c;
+    text-decoration: none;
+}
 @media (max-width:940px){
     #updatebox{
         float:none;

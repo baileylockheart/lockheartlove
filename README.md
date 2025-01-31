@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+1-31-2025: Created a Webring!! I'm super happy with how it's looking rn, all it needs is more people :3
+
 1-27-2025: Added Lists!
 
 1-25-2025: Made what's probably my favorite Blog Post so far!! Also, just know that even though I haven't updated the changelog much, I've been adding stuff daily 😭
