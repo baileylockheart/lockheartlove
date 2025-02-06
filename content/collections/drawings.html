@@ -1,0 +1,30 @@
+---
+layout: template.njk
+title: Drawings
+description: I draw... Sometimes....
+name: collections/drawings
+---
+<style>
+    #center{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .gallery{
+        height: 8rem;
+        border: 2px solid var(--text);
+        border-radius: 10px;
+    }
+    .gallery:hover{
+        -webkit-transform:scale(2);
+        transform:scale(2);
+        transition: all .3s ease-out;
+        z-index: 9999999;
+    }
+    .vlarge:hover{
+        transform:scale(3);}
+</style>
+<div>
+    <h2>I draw... Sometimes....</h2>
+    <p>I don't draw a lot, except for during <a id="color" href="https://artfight.net/~st0rmscribbles" target="_blank">art fight</a>, but I have some stuff that I've drawn! These are the ones I think are good enough to spotlight/share, but I'm a relative beginner in terms of skill, so please be nice :'D</p>
+</div>
+<div id="artgallery"><script src="/javascript/artgallery.js"></script></div>

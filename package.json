@@ -1,0 +1,19 @@
+{
+  "name": "lockheartlove",
+  "version": "2.0.0",
+  "description": "My personal website!",
+  "homepage": "https://github.com/baileylockheart/lockheartlove#readme",
+  "bugs": {
+    "url": "https://github.com/baileylockheart/lockheartlove/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baileylockheart/lockheartlove.git"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

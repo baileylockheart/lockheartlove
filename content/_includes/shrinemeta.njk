@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lockheart Love: {{ title }}</title>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="color-scheme" content="light only"/>
+  <meta name="theme-color" content="{{ color }}">
+    
+  <!--meta tags-->
+  <meta name="description" content="{{ description }}"/>
+  <meta property="og:site_name" content="Neocities"/>
+  <meta property="og:title" content="Lockheart Love: {{ title }}"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ description }}"/>
+  <meta property="og:image" content="https://lockheartlove.netlify.app/images/shrines/{{ card }}"/>
+  <meta property="og:image:height" content="800"/>
+  <meta property="og:url" content="https://lockheartlove.neocities.org/shrines/{{ name }}"/>
+    
+  <!--and the bird app bc they just have to be special-->
+  <meta name="twitter:title" content="Lockheart Love: {{ title }}" />
+  <meta name="twitter:image" content="https://lockheartlove.netlify.app/images/shrines/{{ card }}">
+  <meta name="twitter:description" content="{{ description }}">
+  <meta property="twitter:card" content="summary_large_image"/>
+    
+  <link rel="canonical" href="https://lockheartlove.neocities.org/shrines/{{ name }}"/>
+  <link rel="icon" type="image/x-icon" href="/images/shrines/{{ logo }}"/>
+
+  <div id="preloader"></div>
+</head>
+{{ content | safe }}
+</html>

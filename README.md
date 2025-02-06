@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+2-6-2025: GIANT CHANGE, I MOVED PRETTY MUCH EVERYTHING OVER TO 11TY!!! There shouldn't be any huge changes on your (the viewer's) end, but it's a big shift on my end that should make things a lot easier in the future!!
+
 1-31-2025: New virtual pet, and I created a Webring!! I have it as a "subpage" because I wanted it directly linked from here, but it's an iframe of <a href="https://webmasterwebring.netlify.app" target="_blank">webmasterwebring.netlify.app</a>, which is where the webring is officially hosted!
 
 1-27-2025: Added Lists!

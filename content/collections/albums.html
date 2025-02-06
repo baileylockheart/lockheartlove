@@ -1,0 +1,57 @@
+---
+layout: template.njk
+title: Albums
+description: Albums I own!!
+name: collections/albums
+---
+<style>
+    .center{
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .album{
+        display: block;
+    }
+    iframe{
+        border-radius:12px;
+        width:20rem;
+        margin-bottom: -4rem;
+    }
+    .leftimg{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .rightimg{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    @media (max-width: 670px){
+    .leftimg, .rightimg{
+        border-radius: 15px;
+    }
+}
+</style>
+<div style="overflow: hidden;">
+    <h2>Albums I own!!</h2>
+    <p>As of now, my little collection here is only comprised of a few Stray Kids albums, but I'm hoping to get more albums from more artists as time progresses!</p>
+    <div class="center">
+        <hr>
+        <span class="album">
+            <h3>NoEasy (B Version) by Stray Kids<br><sup>Sort of a belated birthday present to myself ^^</sup></h3>
+            <img class="leftimg" src="/images/albums/noeasy.jpeg" style="height:20rem" alt="NoEasy (B Version) by Stray Kids"><img class="rightimg" src="/images/albums/noeasy-pulls.png" style="height:20rem"><br><iframe src="https://open.spotify.com/embed/album/558tpdCejjVQNFAumRAeQj?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </span>
+        <hr>
+        <span class="album">
+            <h3>樂-Star (Roll Version) by Stray Kids<br><sup>A birthday present from my parents!</sup></h3>
+            <img class="leftimg" src="/images/albums/rockstar.jpeg" style="height:20rem" alt="Rock-Star (Roll Version) by Stray Kids"><img class="rightimg" src="/images/albums/rockstar-pulls.png" style="height:20rem"><br><iframe src="https://open.spotify.com/embed/album/0aJnGEZWIc1VCYlZOXv05a?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </span>
+        <hr>
+        <span class="album">
+            <h3>5-Star (Limited Version) by Stray Kids<br><sup>The first album I ever bought, from the first comeback I was here for!</sup></h3>
+            <img class="leftimg" src="/images/albums/5star.jpeg" style="height:20rem" alt="5-Star (Limited Version) by Stray Kids"><img class="rightimg" src="/images/albums/5star-pulls.png" style="height:20rem"><br><iframe src="https://open.spotify.com/embed/album/3Pel3gWsPxVpZVrciU0Fm6?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </span>
+        </p>
+    </div>
+</div>

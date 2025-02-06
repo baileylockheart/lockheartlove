@@ -1,0 +1,62 @@
+---
+layout: template.njk
+title: Recs
+description: Reccomendations!!!
+name: recs/
+---
+<style>
+.center{
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+.lefttext{
+    max-width: 100%;
+}
+img{
+    border-radius: 5px;
+}
+.title{
+    line-height: 0.5rem;
+}
+.rec{
+    display:inline-block;
+    background-color: var(--accent);
+    color: var(--text);
+    padding: 0.1rem 0.5rem;
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    width:10rem;
+    margin: 2px;
+}
+.recpic{
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    height: 4.5rem;
+}
+a.rec{
+    text-decoration: none;
+}
+a.rec:hover{
+    color: var(--text);
+    transition: all .2s ease-out;
+    transform: scale(1.02); 
+}
+</style>
+<h2>Reccomendations!!!</h2>
+<p>Things I like and want other people to also like!!!</p>
+<div class="center">
+    <hr>
+    <a class="rec" href="/recs/music.html">
+        <img class="recpic" src="/images/emojis/headphone_1f3a7.png">
+        <p class="title">Music recs!!</p>
+    </a>
+    <a class="rec" href="/recs/anime.html">
+        <img class="recpic" src="/images/emojis/cherry-blossom_1f338.png">
+        <p class="title">Anime recs!!</p>
+    </a>
+    <a class="rec" href="/recs/games.html">
+        <img class="recpic" src="/images/emojis/video-game_1f3ae.png">
+        <p class="title">Game recs!!</p>
+    </a>
+</div>

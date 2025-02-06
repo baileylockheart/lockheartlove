@@ -1,0 +1,159 @@
+---
+layout: webmastery.njk
+title: Snippets
+description: Just a couple bits of code to copy and paste into a project and adjust :D
+name: snippets
+---
+<h2>Code Snippets</h2>
+    <p>Just a couple bits of code to copy and paste into a project and adjust :D<br>They're all simple, but I find them helpful to have laid out ahead of time!</p>
+    <hr style="background-color:grey">
+    <label>Declaration + Meta Info (HTML)</label><br>
+    <textarea id="mainta">
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Title</title>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta name="color-scheme" content="light only"/>
+        <meta name="theme-color" content="#">
+            
+        <!--meta tags-->
+        <meta name="description" content="Description"/>
+        <meta property="og:site_name" content="Name of Host"/>
+        <meta property="og:title" content="Title"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Description"/>
+        <meta property="og:image" content="Image Link"/>
+        <meta property="og:image:height" content="800"/>
+        <meta property="og:url" content="Site Link"/>
+            
+        <!--and the bird app bc they just have to be special-->
+        <meta name="twitter:title" content="Title" />
+        <meta name="twitter:image" content="Image Link">
+        <meta name="twitter:description" content="Description">
+        <meta property="twitter:card" content="summary_large_image"/>
+            
+        <link rel="canonical" href="Site Link"/>
+        <link rel="icon" type="image/x-icon" href="/images/logo.png">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+    </head>
+    <body>
+        
+    </body>
+    </html>    
+    </textarea>
+    <hr style="background-color:grey">
+    <label>How I Like Starting CSS Stylesheets (CSS)</label><br>
+    <textarea id="mainta">
+html{
+    height:100%;
+    width:100%;
+    font-size: ;
+}
+body:before{
+    background-attachment: scroll;
+    content: '';
+    display: block;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    left:0;
+    top:0;
+    transform: scale(1);
+    z-index: -700;
+    background-color: ;
+}
+body{
+    font-family: ;
+    color: ;
+    font-size:1rem;
+    line-height:normal;
+    font-weight:200;
+}
+    </textarea>
+    <hr style="background-color: grey;">
+    <label>Change Link Color on Hover (CSS)</label><br>
+    <textarea id="mainta">
+a{
+    color:inherit;
+    font-size: inherit;
+    text-decoration: underline;
+    }
+a:hover{
+    color: ;
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
+    </textarea>
+    <hr style="background-color: grey;">
+    <label>Simple Mobile-Friendly Page (HTML/CSS)</label><br>
+    <textarea id="mainta">
+<div id="container">
+    <p>All the content!</p>
+</div>
+<style>
+    #container{
+        max-width:75%;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+</style>
+    </textarea>
+    <hr style="background-color: grey;">
+    <label>Custom Colors for Scrollbar (CSS)</label><br>
+    <textarea id="mainta">
+body, html {
+    scrollbar-width: auto;
+    scrollbar-color: {Moving part} {Background};
+}
+    </textarea>
+    <hr style="background-color: grey;">
+    <label>Custom Colors for Selected Text (CSS)</label><br>
+    <textarea id="mainta">
+::selection {
+    background: ;
+    color: ;
+}
+    </textarea>    
+    <hr style="background-color: grey;">
+    <label>Pagedoll (HTML/CSS)</label><br>
+    <textarea id="mainta">
+<img id="pagedoll" src="/images/pagedoll.png">
+<style>
+    #pagedoll{
+        position: fixed;
+        width: 180px;
+        bottom: 5px;
+        right:-10px;
+    }
+</style></textarea>
+    <hr style="background-color: grey;">
+    <label>Preloader (HTML/CSS/JS)</label><br>
+    <textarea id="mainta">
+<style>
+    #preloader {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: pink
+      url("https://files.catbox.moe/c5v91o.svg")
+      no-repeat center;
+    z-index: 9999;
+  }
+</style>
+<div id="preloader"></div>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+</script>
+    </textarea> 

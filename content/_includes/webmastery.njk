@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webmastery Tools: {{ title }}</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light only"/>
+    <meta name="theme-color" content="#FFFFFF">
+
+    <!--meta tags-->
+    <meta name="description" content="{{ description }}"/>
+    <meta property="og:site_name" content="Neocities"/>
+    <meta property="og:title" content="Webmastery Tools: {{ title }}"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description }}"/>
+    <meta property="og:image" content="https://baileylockheart.github.io/images/webmasterytools.png"/>
+    <meta property="og:image:height" content="800"/>
+    <meta property="og:url" content="https://lockheartlove.neocities.org/webmastery/{{ name }}"/>
+
+    <!--and the bird app bc they just have to be special-->
+    <meta name="twitter:title" content="Webmastery Tools: {{ title }}" />
+    <meta name="twitter:image" content="https://baileylockheart.github.io/images/webmasterytools.png">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta property="twitter:card" content="summary_large_image"/>
+
+    <link rel="canonical" href="https://lockheartlove.neocities.org/webmastery/{{ name }}"/>
+    <link rel="icon" type="image/x-icon" href="/images/webmastery/pencil.png">
+    <link rel="stylesheet" type="text/css" href="/webmastery/style.css">
+
+    <div id="preloader"></div>
+</head>
+<body>
+<div id="container">
+    <a id="title" href="/webmastery/index.html"><h1>Webmastery Tools</h1></a>
+    <div>
+        •&nbsp;<a href="/webmastery/snippets.html">Snippets</a>
+        •&nbsp;<a href="/webmastery/layouts.html">Layouts</a>
+        •&nbsp;<a href="/webmastery/resources.html">Resources</a>&nbsp;•
+    </div>
+<hr>
+{{ content | safe }}
+<hr>
+<footer>
+    <p>♡&nbsp;&nbsp;<a href="https://neocities.org/site/lockheartlove" target="_blank">Made by Bailey Lockheart</a>&nbsp;&nbsp;♡</p>
+</footer>
+</div>
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+</script>
+</body>
+</html>
