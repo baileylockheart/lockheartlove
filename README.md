@@ -7,7 +7,7 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
-2-10-2025: I downloaded all the pictures from my quiz results, so none of those are hotlinked anymore!
+2-10-2025: I downloaded all the pictures from my Quiz Results, so none of those are hotlinked anymore!
 
 2-6-2025: GIANT CHANGE, I MOVED PRETTY MUCH EVERYTHING OVER TO 11TY!!! There shouldn't be any huge changes on your (the viewer's) end, but it's a big shift on my end that should make things a lot easier in the future!!
 
