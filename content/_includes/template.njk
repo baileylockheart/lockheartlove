@@ -27,7 +27,8 @@
     <link rel="canonical" href="https://lockheartlove.neocities.org/{{ name }}"/>
     <link rel="icon" type="image/x-icon" href="/images/lockheartLOCK.png">
     <link rel="stylesheet" type="text/css" href="/style.css">
-    
+    {{ css | safe }}
+    {{ js | safe }}
     <div id="preloader"></div>
 </head>
 <body>

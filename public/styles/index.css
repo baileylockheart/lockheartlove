@@ -57,11 +57,12 @@
 #smaller{
     padding: 20px auto 0px;
     line-height: 1.5rem;
-    height:18.265rem;
+    height:18.32rem;
     overflow-y: auto;
-    margin-top: -10px;
+    margin-top: -11px;
     scrollbar-width: thin;
     padding-right: 10px;
+    border-bottom-right-radius: 15px;
 }
 #updates{
     height:17.2rem;

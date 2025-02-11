@@ -53,6 +53,7 @@ document.getElementById("nav").innerHTML = `
             <li><a class="dropbtn" onclick="forSite()">For the Site</a></li>
             <div id="dropdownSite" class="dropdown-content">
                 <a href="/collections/index.html">Collections</a>
+                <a href="/fanlistings/index.html" target="_blank">Fanlistings <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/feeds.html">Feeds</a>
                 <a href="/collections/greenhouse.html">Greenhouse</a>
                 <a href="/shrines/index.html">Shrines</a>
