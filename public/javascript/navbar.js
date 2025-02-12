@@ -52,7 +52,8 @@ document.getElementById("nav").innerHTML = `
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forSite()">For the Site</a></li>
             <div id="dropdownSite" class="dropdown-content">
-                <a href="/collections/index.html">Collections</a>
+                <a href="/collections/index.html">All Collections</a>
+                <a href="/collections/awards.html">Awards</a>
                 <a href="/fanlistings/index.html" target="_blank">Fanlistings <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/feeds.html">Feeds</a>
                 <a href="/collections/greenhouse.html">Greenhouse</a>
@@ -80,8 +81,7 @@ document.getElementById("nav").innerHTML = `
     margin-bottom: 10px;
     color:var(--main);
     font-family: var(--serif);
-    font-size: 1.25rem;
-    
+    font-size: 1.25rem;   
 }
 #nav ul {
     display:flex;
