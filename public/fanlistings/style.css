@@ -27,7 +27,7 @@ body:before{
     transform: scale(1);
     z-index: -700;
     background: var(--bg);
-    background-image: url("/images/fanlistings/cloud-bg.png");
+    background-image: url("img/cloud-bg.png");
     background-size: repeat, auto;
     background-position: center, 0% 0%;
     background-repeat: repeat, repeat;
@@ -121,7 +121,6 @@ footer{
     padding-right: auto;
   }
 /*nav*/
-
 #nav {
     background-color: var(--light);
     width: 100%;
@@ -168,23 +167,9 @@ footer a:hover{
     transition: 0.6s ease;
     -webkit-transition: 0.6s ease
 }
-/*buttons*/
-button {
-    display: table-cell;
-    vertical-align: middle;
-    background-color: var(--light);
-    color:var(--main);
-    cursor: pointer;
-    width: 88px;
-    height:31px;
-    border:none;
-    border-radius:5px;
-    text-align: center;
-    text-decoration: none;
-    font-family: var(--sans);
-    font-size:0.85rem;
-    font-weight:700;
-    margin: 0 0 3px 0;
+.normal{
+    line-height: normal;
+    padding-bottom: 1em;
 }
 /*fun stuff*/
 hr{
@@ -230,8 +215,9 @@ textarea{
     font-family: var(--sans);
     font-size:0.7rem;
     line-height: 0.7rem;
-    padding:2px;
-    height:23px
+    padding:5px;
+    height:25px;
+    width: 150px;
 }
 ::selection {
     background: var(--lighter);
