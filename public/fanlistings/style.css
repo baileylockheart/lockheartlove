@@ -56,14 +56,14 @@ body, html {
     position: relative;
     background-color: var(--main);
     border: 15px solid transparent;
-    border-image: url("/images/fanlistings/frame.png") round;
+    border-image: url("img/frame.png") round;
     border-image-slice: 6;
     border-image-width: 10px;
     border-image-outset: 10px;
 }
 .border{
     border: 10px solid transparent;
-    border-image: url("/images/fanlistings/frame.png") round;
+    border-image: url("img/frame.png") round;
     border-image-slice: 6;
     border-image-width: 10px;
 }
@@ -120,6 +120,30 @@ footer{
     padding-left: auto;
     padding-right: auto;
   }
+/*nav*/
+
+#nav {
+    background-color: var(--light);
+    width: 100%;
+    padding: 0 15px;
+    margin: 10px -15px;
+    color:var(--main);
+    font-family: var(--serif);
+    font-size: 1.25rem;   
+}
+#nav ul {
+    display:flex;
+    list-style-type:none;
+    justify-content: space-evenly;
+  }
+#nav a{
+    text-decoration:none
+}
+#nav a:hover{
+    color: var(--bg);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
 /*text*/
 h1{
     font-family: var(--serif);
@@ -190,11 +214,14 @@ hr.half {
   
 .myfltext {
     display: inline;
-    line-height: 0.25rem;
     margin: 10px 10px -10px;
 }
+.myfltext span{
+    font-size: 1.15rem;
+    font-weight: 800;
+}
 .myfltext p{
-    line-height: normal;
+    margin-top: -3px;
 }
 textarea{
     background-color: var(--main);
@@ -220,7 +247,7 @@ textarea{
     left: 0;
     top: 0;
     background: var(--bg)
-      url("/images/oval.svg")
+      url("https://samherbert.net/svg-loaders/svg-loaders/hearts.svg")
       no-repeat center;
     z-index: 9999;
   }
@@ -235,7 +262,10 @@ textarea{
     #flex{
         display: inline-block;
     }
+    #nav ul{
+        margin-left: -2.75rem;
+    }
     p{
-        font-size: 1.15rem;
+        font-size: 1.1rem;
     }
 }
