@@ -4,7 +4,7 @@
   --bg:#cae9ff;
   --main:#e6f0ff;
   --text: #001d73;
-  --light: #608cd8;
+  --light: #3E74D0;
   --lighter: #5a81db;
   --accent:#c9daff;
   --serif:"Amita", handwriting;
@@ -83,7 +83,7 @@ body, html {
     border-bottom: solid 2px var(--text);
     font-size: 1.1rem;
     text-align: center;
-    color: var(--main);
+    color: white;
     padding: 5px;
     margin:-10px;
     margin-bottom: 11px;
@@ -113,7 +113,7 @@ img {
 }
 footer{
     background-color: var(--light);
-    color: var(--main);
+    color: white;
     text-align: center;
     padding: 5px;
     margin: 0px -15px -15px;
@@ -126,7 +126,7 @@ footer{
     width: 100%;
     padding: 0 15px;
     margin: 10px -15px;
-    color:var(--main);
+    color: white;
     font-family: var(--serif);
     font-size: 1.25rem;   
 }
@@ -186,6 +186,11 @@ hr.half {
   }
 #icon a{
     text-decoration: none;
+}
+#icon a:hover{
+    color: var(--lighter);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
 }
 #icon img{
     height: 25px;
