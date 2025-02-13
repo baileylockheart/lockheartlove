@@ -151,6 +151,36 @@
 	font-size:small;
 	color:#453B3D;
 }
+
+#fandomring {
+    margin: 0 auto;
+    padding: 15px; /* creates some space around the widget */
+  }
+  
+  #fandomring table {
+    margin: 0 auto; /* centers the widget */
+  }
+  
+  #fandomring table tr td {
+    padding: 15px; /* creates some space between the links and text inside the widget */
+  }
+  
+  #fandomring .webring-prev {
+    text-align:right;
+  }
+  
+  #fandomring .webring-info {
+     text-align:center;
+     text-transform: lowercase;
+  }
+  
+  #fandomring .webring-next {
+    text-align:left;
+  }
+  
+  #fandomring .webring-links {
+    font-size:small;
+  }
 @media (max-width:940px){
     #updatebox{
         float:none;
