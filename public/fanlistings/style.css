@@ -162,6 +162,11 @@ a{
     text-decoration: underline;
     color:inherit
 }
+a:hover{
+    color: var(--lighter);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
 footer a:hover{
     color: var(--bg);
     transition: 0.6s ease;
@@ -186,11 +191,6 @@ hr.half {
   }
 #icon a{
     text-decoration: none;
-}
-#icon a:hover{
-    color: var(--lighter);
-    transition: 0.6s ease;
-    -webkit-transition: 0.6s ease
 }
 #icon img{
     height: 25px;
