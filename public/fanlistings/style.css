@@ -237,6 +237,13 @@ hr.half {
     float:left;
     padding: 0  1rem 0 0;
 }
+.smol p{margin: -2px;}
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 textarea{
     background-color: var(--main);
     color: var(--text);
