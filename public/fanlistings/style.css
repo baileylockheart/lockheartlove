@@ -88,7 +88,7 @@ body, html {
     margin:-10px;
     margin-bottom: 11px;
 }
-#scrollbox {
+.scrollbox {
     text-align:left;
     width: 100%;
     height: 300px;
@@ -135,6 +135,9 @@ footer{
     list-style-type:none;
     justify-content: space-evenly;
   }
+#nav li{
+    margin: 0 1rem;
+}
 #nav a{
     text-decoration:none
 }
@@ -176,6 +179,12 @@ footer a:hover{
     line-height: normal;
     padding-bottom: 1em;
 }
+div.paragraphs{
+    display: block;
+    text-align: start;
+    width: 90%;
+    margin: auto;
+}
 /*fun stuff*/
 hr{
     background-color:var(--text);
@@ -206,12 +215,27 @@ hr.half {
     display: inline;
     margin: 10px 10px -10px;
 }
-.myfltext span{
+.myfltext span a{
     font-size: 1.15rem;
     font-weight: 800;
 }
 .myfltext p{
     margin-top: -3px;
+}
+#updates{
+    height:80px;
+    font-size: smaller;
+    scrollbar-width: thin;
+    margin: -10px auto;
+}
+#list{
+    width: 70%;
+    margin: auto
+}
+#pfp{
+    width: 215px;
+    float:left;
+    padding: 0  1rem 0 0;
 }
 textarea{
     background-color: var(--main);
@@ -250,13 +274,32 @@ textarea{
     .box{
         width: 90%;
     }
+    #icon img{
+        display: none;
+    }
     #flex{
         display: inline-block;
     }
     #nav ul{
         margin-left: -2.75rem;
+        flex-wrap: wrap;
     }
     p{
         font-size: 1.1rem;
+    }
+    #list{
+        width: 90%;
+        padding: 0 15px;
+    }
+    #pfp{
+        display: block;
+        width: 200px;
+        float: none;
+        margin: auto;
+        padding: 0.5rem;
+    }
+    .myfl, .myfltext span{
+        display: block;
+        text-align: center;
     }
 }

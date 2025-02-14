@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+2-14-2025: Big general update, new graphics and pets and fanlistings, lots of stuff!
+
 2-12-2025: I fixed up my Fanlistings! It's now officially a subpage, which I have lovingly dubbed "Pastel Prince FLs". Why? Because I can.
 
 2-11-2025: I made a page for my Fanlistings! I've gotta set it up though, I want it to be its own mini website :(
