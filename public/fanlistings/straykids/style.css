@@ -75,16 +75,14 @@ footer{
     align-content: center;
     justify-content: center;
     max-width:964px;
-    margin-left:auto;
-    margin-right:auto;
     padding:1rem;
-    margin-bottom: 10px;
     background-color: var(--altbg);
     border-radius: 5px;
     border: solid 2px black;
     font-size: .9rem;
     font-family: var(--sans);
     text-align: center;
+    margin: -5px auto;
 }
 #main{
     background-color: var(--altbg);
