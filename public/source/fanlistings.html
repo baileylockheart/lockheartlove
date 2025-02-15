@@ -32,6 +32,11 @@
 
     <div id="preloader"></div>
 </head>
+<script>
+    function dropSKZ() {
+document.getElementById("myDropdownSKZ").classList.toggle("show");
+}
+</script>
 <body>
     <header>&#9825;&nbsp;&nbsp;<a href="/source/index.html">Source Code</a>&nbsp;&nbsp;&#9825;</header>
     <div id="container">
@@ -39,6 +44,24 @@
     </div>
     <div id="container">
         <div id="code">
+            
+            <div class="dropdown">
+                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropSKZ()">straykids</a>
+                <div id="myDropdownSKZ" class="dropdown-content">
+                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/straykids/index.html?theme=dracula";'>index.html</a>
+                <br>
+                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/straykids/style.css?theme=dracula";'>style.css</a>
+                </div>
+            </div>
+            <hr>
+            <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/404.html?theme=dracula";'>404.html</a>
+            <hr>
+            <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/about.html?theme=dracula";'>about.html</a>
+            <hr>
+            <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/contact.html?theme=dracula";'>contact.html</a>
+            <hr>
+            <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/donated.html?theme=dracula";'>donated.html</a>
+            <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/index.html?theme=dracula";'>index.html</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/joined.html?theme=dracula";'>joined.html</a>
