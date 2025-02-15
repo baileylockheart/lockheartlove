@@ -192,6 +192,9 @@
     transition: none;
     -webkit-transition: none
   }
+  .git img {
+    margin: -13px
+}
 @media (max-width:940px){
     #updatebox{
         float:none;

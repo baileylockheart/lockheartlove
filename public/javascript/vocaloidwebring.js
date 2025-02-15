@@ -74,7 +74,7 @@ document.getElementById("vocaring").innerHTML = `
         <td>
             <div class='webring-info'>VOCALOID<br>WEBRING</div>
             <div class='webring-links'>
-                <a href='https://webring.adilene.net/index.php' target='_parent' style="color:#e74492">Index</a> &#8226; <a href='https://webring.adilene.net/members.php' target='_parent' style="color:#e74492">Members</a>
+                <a href='https://webring.adilene.net/index.php' target='_parent' style="color:#e74492;transition:0.3s;-webkit-transition: 0.3s">Index</a> &#8226; <a href='https://webring.adilene.net/members.php' target='_parent' style="color:#e74492;transition:0.3s;-webkit-transition: 0.3s">Members</a>
             </div>
         </td>
     </tr>

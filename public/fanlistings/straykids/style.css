@@ -69,6 +69,15 @@ header{
     margin-bottom: -0.15rem;
     margin-right: 1rem;
 }
+#home{
+    text-align: center;
+}
+#home p{
+    text-align: start;
+}
+#home img{
+    width: 80%;
+}
 footer{
     display:flex;
     flex-wrap: wrap;
