@@ -151,18 +151,19 @@
 	font-size:small;
 	color:#453B3D;
 }
-
 #fandomring {
     margin: 0 auto;
-    padding: 15px; /* creates some space around the widget */
-  }
+    font-family: 'EB Garamond', serif;
+    color: #681E13
+}
   
   #fandomring table {
-    margin: 0 auto; /* centers the widget */
+    margin: 0 auto;
   }
   
   #fandomring table tr td {
-    padding: 15px; /* creates some space between the links and text inside the widget */
+    padding: 1px;
+    line-height: 0.9rem;
   }
   
   #fandomring .webring-prev {
@@ -180,6 +181,16 @@
   
   #fandomring .webring-links {
     font-size:small;
+  }
+  #fandomring a:link, #fandomring a:visited{
+    color: #681E13;
+    text-decoration: underline dotted #9b3528;
+  }
+  #fandomring a:hover, #fandomring a:focus{
+    color: #b7644d;
+    text-decoration: underline solid;
+    transition: none;
+    -webkit-transition: none
   }
 @media (max-width:940px){
     #updatebox{
