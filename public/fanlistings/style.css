@@ -244,6 +244,10 @@ hr.half {
     justify-content: center;
     align-items: center;
 }
+.buttonholder{
+    margin: auto;
+    width: 70%;
+}
 textarea{
     background-color: var(--main);
     color: var(--text);
