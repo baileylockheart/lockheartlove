@@ -246,7 +246,7 @@ hr.half {
 }
 .buttonholder{
     margin: auto;
-    width: 70%;
+    width: 60%;
 }
 textarea{
     background-color: var(--main);
@@ -315,5 +315,9 @@ textarea{
     }
     .myfl{
         margin-bottom: -35px;
+    }
+    .buttonholder{
+        margin: auto;
+        width: 100%;
     }
 }
