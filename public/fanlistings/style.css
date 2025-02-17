@@ -277,7 +277,7 @@ textarea{
       no-repeat center;
     z-index: 9999;
   }
-/*media querey*/
+/*media query*/
 @media (max-width: 770px){
     html{
         font-size:15.5px

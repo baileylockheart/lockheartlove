@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+2-16-2025: I made a <a href="https://dont-click-this.itch.io/itchio-fanlisting" target="_blank">itch.io Fanlisting</a>!
+
 2-14-2025: <a href="https://pastelprince.netlify.app/straykids" target="_blank">Stray Kids Fanlisting</a>, new graphics and pets and fanlistings, lots of stuff!
 
 2-12-2025: I fixed up my Fanlistings! It's now officially a subpage, which I have lovingly dubbed "Pastel Prince FLs". Why? Because I can.
