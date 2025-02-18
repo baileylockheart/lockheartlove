@@ -62,7 +62,7 @@ document.getElementById("nav").innerHTML = `
                 <a href="/collections/virtualpets.html">Virtual Pets</a>
             </div>
         </div> 
-        <li><a href="/blog/index.html">Blog</a> <img src="/images/new.gif"></li>
+        <li><a href="/blog/index.html">Blog</a> <!--<img src="/images/new.gif">--></li>
         <li><a href="/links.html">Links</a></li>
     </ul>
 </div>
