@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+2-19-2025: I made a fanlisting for <a href="https://akito.super.site/fanlisting" target="_blank">Akito Shinonome</a>, because of course I did, and we hit 100 fanlistings total!
+
 2-16-2025: I made a <a href="https://dont-click-this.itch.io/itchio-fanlisting" target="_blank">itch.io Fanlisting</a>!
 
 2-14-2025: <a href="https://pastelprince.netlify.app/straykids" target="_blank">Stray Kids Fanlisting</a>, new graphics and pets and fanlistings, lots of stuff!

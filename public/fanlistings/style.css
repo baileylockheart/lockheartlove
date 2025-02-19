@@ -74,6 +74,9 @@ body, html {
     padding: 10px;
     margin: 2px
 }
+.characters{
+    width: 24rem;
+}
 .box p{
     line-height: 1rem;
     margin-bottom: -10px;
@@ -282,7 +285,7 @@ textarea{
     html{
         font-size:15.5px
     }
-    .box{
+    .box, .characters{
         width: 90%;
     }
     #icon img{
