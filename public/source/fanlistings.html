@@ -33,6 +33,9 @@
     <div id="preloader"></div>
 </head>
 <script>
+    function dropAkito() {
+document.getElementById("myDropdownAkito").classList.toggle("show");
+}
     function dropSKZ() {
 document.getElementById("myDropdownSKZ").classList.toggle("show");
 }
@@ -44,7 +47,15 @@ document.getElementById("myDropdownSKZ").classList.toggle("show");
     </div>
     <div id="container">
         <div id="code">
-            
+            <div class="dropdown">
+                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropAkito()">akito</a>
+                <div id="myDropdownAkito" class="dropdown-content">
+                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/akito/index.html?theme=dracula";'>index.html</a>
+                <br>
+                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/akito/style.css?theme=dracula";'>style.css</a>
+                </div>
+            </div>
+            <hr>
             <div class="dropdown">
                 <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropSKZ()">straykids</a>
                 <div id="myDropdownSKZ" class="dropdown-content">

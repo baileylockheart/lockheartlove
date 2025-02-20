@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');    
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root{
-  --bg:#E02D2A;
-  --altbg:#f29f9f;
-  --altbg2:#f07f7f;
-  --altbg3:#ceb8b8;
+  --bg:#FFDB99;
+  --altbg:#FFF1E3;
+  --altbg2:#f9d6ab;
+  --altbg3:#FFB86C;
   --main:#000;
-  --light: #a32524;
-  --lighter: #e10000;
-  --serif:"Noto Serif", serif;
+  --light: #b35c00;
+  --serif:"Nunito", serif;
 }
 html{
     height:100%;
@@ -25,7 +24,8 @@ body:before{
     top:0;
     transform: scale(1);
     z-index: -700;
-    background-image: linear-gradient(to right, #C71B16, #F93F3E);
+    background-image: url("https://file.garden/ZrZSgsrYfQXsO7QH/graphicsbyjay/bgs/orange.png");
+    filter:saturate(120%) brightness(95%);
 }
 body{
     background-color: var(--bg);
@@ -33,11 +33,11 @@ body{
     color: var(--main);
     font-size:1rem;
     line-height:normal;
-    font-weight:150;
+    font-weight:600;
 }
 body, html {
     scrollbar-width: auto;
-    scrollbar-color:  #b36767 #a32524;
+    scrollbar-color:  var(--altbg3) var(--altbg);
   }
 /*here we goooooo*/
 #container{
@@ -65,7 +65,8 @@ header{
     font-family: var(--serif);
     text-align: center;
 }
-#logo{
+.logo{
+    width: 120px;
     margin-bottom: -0.15rem;
     margin-right: 1rem;
 }
@@ -76,7 +77,8 @@ header{
     text-align: start;
 }
 #home img{
-    width: 80%;
+    margin: -2rem auto 1rem;
+    height: 410px
 }
 footer{
     display:flex;
@@ -110,7 +112,7 @@ footer{
     background-color: var(--altbg2);
     border-radius: 5px;
     border: solid 2px black;
-    width:16rem;
+    width:14rem;
     text-align: center;
     font-size: 1.15rem;
     padding: 1rem;
@@ -121,7 +123,7 @@ footer{
 #sidebar ul{
     text-align: start;
     line-height: 2rem;
-    list-style-type: "★  ";
+    list-style-type: "✶  ";
 }
 /*text*/
 h1{
@@ -196,8 +198,8 @@ hr{
     height: 100vh;
     left: 0;
     top: 0;
-    background: #9d5959
-      url("img/3racha.gif")
+    background: var(--altbg3)
+      url("img/bars.svg")
       no-repeat center;
     z-index: 9999;
   }
