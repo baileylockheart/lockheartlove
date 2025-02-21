@@ -74,9 +74,6 @@ body, html {
     padding: 10px;
     margin: 2px
 }
-.characters{
-    width: 24rem;
-}
 .box p{
     line-height: 1rem;
     margin-bottom: -10px;
@@ -101,11 +98,21 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
     padding: 5px;
 }
 .inline{
     display: inline;
     padding: 5px;
+}
+.characters{
+    width: 39.1rem;
+}
+.fansfansfans{
+    display:flex;
+    width:40.15rem;
+    justify-content: center;
+    align-items: center;
 }
 img {
     image-rendering: auto;
@@ -201,12 +208,16 @@ hr.half {
     border-radius: 5px;
     height: 2px;
   }
-#icon a{
+#title a{
     text-decoration: none;
 }
-#icon img{
+img.icon{
     height: 25px;
     padding: 0 10px;
+}
+img.border{
+    width: 225px;
+    margin-left: -5px;
 }
 .myfl {
     display: flex;
@@ -225,8 +236,11 @@ hr.half {
 .myfltext p{
     margin-top: -3px;
 }
+#stats{
+    height: 6.25rem
+}
 #updates{
-    height:80px;
+    height:5rem;
     font-size: smaller;
     scrollbar-width: thin;
     margin: -10px auto;
@@ -285,10 +299,10 @@ textarea{
     html{
         font-size:15.5px
     }
-    .box, .characters{
+    .box, .characters, .fansfansfans, img.border{
         width: 90%;
     }
-    #icon img{
+    img.icon{
         display: none;
     }
     #flex{
