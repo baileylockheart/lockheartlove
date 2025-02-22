@@ -109,8 +109,10 @@ body, html {
     width: 39.1rem;
 }
 .fansfansfans{
-    display:flex;
     width:40.15rem;
+}
+.fansfansfans span{
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -305,7 +307,7 @@ textarea{
     img.icon{
         display: none;
     }
-    #flex, .fansfansfans{
+    #flex, .fansfansfans span{
         display: inline-block;
     }
     #nav ul{

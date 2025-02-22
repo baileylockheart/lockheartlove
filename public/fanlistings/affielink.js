@@ -22,7 +22,7 @@ function getImageHtmlCode() {
 }
 
 tag.insertAdjacentHTML('afterbegin', `
-    <div style="height:15px;margin:5px"><a href="links.html" title="AffieLink"><img src="https://file.garden/ZrZSgsrYfQXsO7QH/affielink/affielink.png" style="border:0;margin:0;height:15px" alt="AffieLink" /></a></div>
+    <div style="height:15px;margin:3px"><a href="https://pastelprince.netlify.app/links#affies" title="AffieLink"><img src="https://file.garden/ZrZSgsrYfQXsO7QH/affielink/affielink.png" style="border:0;margin:0;height:15px" alt="AffieLink" /></a></div>
 `);
 
 document.write(getImageHtmlCode());
