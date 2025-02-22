@@ -1,16 +1,12 @@
 var tag = document.getElementById("affielink");
 
-var imageUrls = [
-    "https://file.garden/ZrZSgsrYfQXsO7QH/affielink/amour.png"
-  , "https://file.garden/ZrZSgsrYfQXsO7QH/affielink/precious.png"
-  , "https://file.garden/ZrZSgsrYfQXsO7QH/affielink/shadowlord.png"
-  , "https://file.garden/ZrZSgsrYfQXsO7QH/ww/ww-affie.png"
+var imageUrls = [ // remember to put a comma before new entries!
+    "imagepath/example.png"
+  , "imagepath/otherexample.png"
 ];
 var imageLinks = [
-    "https://love.suga.nu/"
-   , "https://seaincense.com/"
-    , "https://shadow-lord.com/"
-   , "https://webmasterwebring.netlify.app/"
+    "https://example.com"
+   , "https://otherexample.com/"
 ];
 
 function getImageHtmlCode() {
