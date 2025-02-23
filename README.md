@@ -7,11 +7,13 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
-2-19-2025: I made a fanlisting for <a href="https://pastelprince.netlify.app/akito/" target="_blank">Akito Shinonome</a>, because of course I did, and we hit 100 fanlistings total!
+2-22-2025: I FINALLY GOT A DOMAIN!!! I'm very happy about it! All the old links will still work, but still!!
+
+2-19-2025: I made a fanlisting for <a href="https://pastelprince.lockheart.love/fan/akito/" target="_blank">Akito Shinonome</a>, because of course I did, and we hit 100 fanlistings total!
 
 2-16-2025: I made a <a href="https://dont-click-this.itch.io/itchio-fanlisting" target="_blank">itch.io Fanlisting</a>!
 
-2-14-2025: <a href="https://pastelprince.netlify.app/straykids" target="_blank">Stray Kids Fanlisting</a>, new graphics and pets and fanlistings, lots of stuff!
+2-14-2025: <a href="https://pastelprince.lockheart.love/fan/straykids" target="_blank">Stray Kids Fanlisting</a>, new graphics and pets and fanlistings, lots of stuff!
 
 2-12-2025: I fixed up my Fanlistings! It's now officially a subpage, which I have lovingly dubbed "Pastel Prince FLs". Why? Because I can.
 

@@ -16,7 +16,7 @@
     <meta property="og:description" content="This is my fanlisting collective!"/>
     <meta property="og:image" content="https://i.imgur.com/SewwaVX.png"/>
     <meta property="og:image:height" content="800"/>
-    <meta property="og:url" content="https://lockheartlove.neocities.org/source/source"/>
+    <meta property="og:url" content="https://lockheart.love/source/source"/>
     
     <!--and the bird app bc they just have to be special-->
     <meta name="twitter:title" content="Source Code: Fanlistings" />
@@ -24,7 +24,7 @@
     <meta name="twitter:description" content="This is my fanlisting collective!">
     <meta property="twitter:card" content="summary_large_image"/>
     
-    <link rel="canonical" href="https://lockheartlove.neocities.org/source/source"/>
+    <link rel="canonical" href="https://lockheart.love/source/source"/>
     <link rel="icon" type="image/x-icon" href="https://files.catbox.moe/2wewk2.png">
     <link rel="stylesheet" type="text/css" href="/source/style.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -33,6 +33,12 @@
     <div id="preloader"></div>
 </head>
 <script>
+    function dropAffie() {
+document.getElementById("myDropdownAffie").classList.toggle("show");
+}
+    function dropFan() {
+document.getElementById("myDropdownFan").classList.toggle("show");
+}
     function dropAkito() {
 document.getElementById("myDropdownAkito").classList.toggle("show");
 }
@@ -48,20 +54,33 @@ document.getElementById("myDropdownSKZ").classList.toggle("show");
     <div id="container">
         <div id="code">
             <div class="dropdown">
-                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropAkito()">akito</a>
-                <div id="myDropdownAkito" class="dropdown-content">
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/akito/index.html?theme=dracula";'>index.html</a>
+                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropAffie()">affielink</a>
+                <div id="myDropdownAffie" class="dropdown-content">
+                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/affielink/index.html?theme=dracula";'>index.html</a>
                 <br>
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/akito/style.css?theme=dracula";'>style.css</a>
+                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/affielink/affielink.js?theme=dracula";'>affielink.js</a>
                 </div>
             </div>
             <hr>
             <div class="dropdown">
-                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropSKZ()">straykids</a>
-                <div id="myDropdownSKZ" class="dropdown-content">
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/straykids/index.html?theme=dracula";'>index.html</a>
-                <br>
-                <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/straykids/style.css?theme=dracula";'>style.css</a>
+                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropFan()">fan</a>
+                <div id="myDropdownFan" class="dropdown-content">
+                    <div class="dropdown">
+                        <svg class="folder4 indent"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropAkito()">akito</a>
+                        <div id="myDropdownAkito" class="dropdown-content">
+                        <svg class="doc2 indent2"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fan/fanlistings/akito/index.html?theme=dracula";'>index.html</a>
+                        <br>
+                        <svg class="doc2 indent2"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fan/fanlistings/akito/style.css?theme=dracula";'>style.css</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <svg class="folder4 indent"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropSKZ()">straykids</a>
+                        <div id="myDropdownSKZ" class="dropdown-content">
+                        <svg class="doc2 indent2"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/fan/straykids/index.html?theme=dracula";'>index.html</a>
+                        <br>
+                        <svg class="doc2 indent2"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/fanlistings/fan/straykids/style.css?theme=dracula";'>style.css</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <hr>

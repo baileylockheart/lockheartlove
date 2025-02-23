@@ -27,43 +27,44 @@ document.getElementById("nav").innerHTML = `
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forMe()">For Me</a></li>
             <div id="dropdownForMe" class="dropdown-content">
-                <li><a href="/about.html">About Me</a></li>
-                <a href="/collections/albums.html">Albums</a>
-                <a href="/collections/drawings.html">Drawings</a>
-                <a href="/collections/lists.html">Lists</a>
-                <a href="/collections/mymusic.html">My Music</a>
-                <a href="/collections/quizzes.html">Quiz Results</a>
-                <a href="/collections/videomanager.html">Video Manager</a>
-                <a href="/collections/websites.html">Websites</a>
+                <li><a href="/about">About Me</a></li>
+                <a href="/collections/albums">Albums</a>
+                <a href="/collections/drawings">Drawings</a>
+                <a href="/collections/lists">Lists</a>
+                <a href="/collections/mymusic">My Music</a>
+                <a href="/collections/quizzes">Quiz Results</a>
+                <a href="/collections/videomanager">Video Manager</a>
+                <a href="/collections/websites">Websites</a>
             </div>
         </div> 
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forYou()">For You</a></li>
             <div id="dropdownForYou" class="dropdown-content">
-                <a href="/foryou.html">See All</a>
-                <a href="/collections/cliques.html">Cliques</a>
-                <a href="/graphics/index.html">Graphics</a>
-                <a href="/recs/index.html">Recs</a>
-                <a href="/collections/themes.html">Themes</a>
-                <a href="/webmastery/index.html" target="_blank">Webmastery <svg><use xlink:href="#icon-link"></use></svg></a>
-                <a href="/webring.html" target="_blank">Webring <svg><use xlink:href="#icon-link"></use></svg></a>
+                <a href="/foryou">See All</a>
+                <a href="/collections/cliques">Cliques</a>
+                <a href="/graphics/">Graphics</a>
+                <a href="/recs/">Recs</a>
+                <a href="/source/" target="_blank">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
+                <a href="/collections/themes">Themes</a>
+                <a href="/webmastery/" target="_blank">Webmastery <svg><use xlink:href="#icon-link"></use></svg></a>
+                <a href="/webring" target="_blank">Webring <svg><use xlink:href="#icon-link"></use></svg></a>
             </div>
         </div> 
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forSite()">For the Site</a></li>
             <div id="dropdownSite" class="dropdown-content">
-                <a href="/collections/index.html">All Collections</a>
-                <a href="/collections/awards.html">Awards</a>
-                <a href="/fanlistings/index.html" target="_blank">Fanlistings <svg><use xlink:href="#icon-link"></use></svg></a>
-                <a href="/collections/feeds.html">Feeds</a>
-                <a href="/collections/greenhouse.html">Greenhouse</a>
-                <a href="/shrines/index.html">Shrines</a>
-                <a href="/source/index.html" target="_blank">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
-                <a href="/collections/virtualpets.html">Virtual Pets</a>
+                <a href="/collections/">All Collections</a>
+                <a href="/collections/awards">Awards</a>
+                <a href="/domain">Domain</a>
+                <a href="/fanlistings/" target="_blank">Fanlistings <svg><use xlink:href="#icon-link"></use></svg></a>
+                <a href="/collections/feeds">Feeds</a>
+                <a href="/collections/greenhouse">Greenhouse</a>
+                <a href="/shrines/">Shrines</a>
+                <a href="/collections/virtualpets">Virtual Pets</a>
             </div>
         </div> 
-        <li><a href="/blog/index.html">Blog</a> <!--<img src="/images/new.gif">--></li>
-        <li><a href="/links.html">Links</a></li>
+        <li><a href="/blog/">Blog</a> <!--<img src="/images/new.gif">--></li>
+        <li><a href="/links">Links</a></li>
     </ul>
 </div>
 <svg display='none'><symbol id='icon-link' viewBox='0 0 40 40'><path d='M30.1,22.8c-0.1-0.1-0.3-0.2-0.5-0.2h-1.3c-0.2,0-0.3,0.1-0.5,0.2c-0.1,0.1-0.2,0.3-0.2,0.5v6.4c0,0.9-0.3,1.6-0.9,2.3 c-0.6,0.6-1.4,0.9-2.3,0.9H7.8c-0.9,0-1.6-0.3-2.3-0.9c-0.6-0.6-0.9-1.4-0.9-2.3V12.9c0-0.9,0.3-1.6,0.9-2.3C6.1,10,6.9,9.7,7.8,9.7 h14.1c0.2,0,0.3-0.1,0.5-0.2c0.1-0.1,0.2-0.3,0.2-0.5V7.8c0-0.2-0.1-0.3-0.2-0.5c-0.1-0.1-0.3-0.2-0.5-0.2H7.8c-1.6,0-3,0.6-4.1,1.7 S2,11.3,2,12.9v16.7c0,1.6,0.6,3,1.7,4.1c1.1,1.1,2.5,1.7,4.1,1.7h16.7c1.6,0,3-0.6,4.1-1.7c1.1-1.1,1.7-2.5,1.7-4.1v-6.4 C30.3,23,30.2,22.9,30.1,22.8z M37.6,5c-0.3-0.3-0.6-0.4-0.9-0.4H26.4c-0.3,0-0.6,0.1-0.9,0.4s-0.4,0.6-0.4,0.9s0.1,0.6,0.4,0.9 l3.5,3.5L16,23.4c-0.1,0.1-0.2,0.3-0.2,0.5s0.1,0.3,0.2,0.5l2.3,2.3c0.1,0.1,0.3,0.2,0.5,0.2c0.2,0,0.3-0.1,0.5-0.2l13.1-13.1 l3.5,3.5c0.3,0.3,0.6,0.4,0.9,0.4c0.3,0,0.6-0.1,0.9-0.4s0.4-0.6,0.4-0.9V5.9C38,5.5,37.9,5.2,37.6,5z'/></symbol></svg>
