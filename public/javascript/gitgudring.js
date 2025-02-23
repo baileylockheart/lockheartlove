@@ -70,8 +70,6 @@ a.git:hover {
 // code
 webring.index = location.href.startsWith("file://") ? 0 : webring.sites.findIndex(url => location.href.startsWith(url));
 
-  webring.widget = webring.widget.replace("PREV", webring.sites.at(webring.index - 1));
-  webring.widget = webring.widget.replace("NEXT", webring.sites[(webring.index + 1) % webring.sites.length]);
   webring.widget = webring.widget.replace("RANDOM", webring.sites[Math.floor(Math.random() * webring.sites.length)]);
   document.currentScript.outerHTML = webring.widget;
 
