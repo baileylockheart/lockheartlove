@@ -22,7 +22,31 @@ function getImageHtmlCode() {
 }
 
 tag.insertAdjacentHTML('afterbegin', `
-    <div style="height:15px;margin:3px"><a href="https://pastelprince.lockheart.love/affielink" title="AffieLink"><img src="https://file.garden/ZrZSgsrYfQXsO7QH/affielink/affielink.png" style="border:0;margin:0;height:15px" alt="AffieLink" /></a></div>
+    <style>
+    @font-face {
+      font-family: "Perfect DOS";
+      src: url("https://file.garden/ZrZSgsrYfQXsO7QH/fonts/PerfectDOS.ttf");
+    }
+    #affiebtn{
+      background-color: #3E74D0;
+      color: #e6f0ff;
+      width: 75px !important; 
+      height:15px;
+      font-family: "Perfect DOS", serif;
+      font-size: 14px !important;
+      font-weight: 500;
+      letter-spacing: -1px;
+      border:0;
+      border-radius: 0 !important
+    }
+    #affielabel{
+      height:15px;
+      margin:8px;
+    }
+    </style>
+    <div id="affielabel">
+      <a href="https://pastelprince.lockheart.love/affielink" title="AffieLink"><button id="affiebtn">AffieLink</button></a>
+    </div>
 `);
 
 document.write(getImageHtmlCode());
