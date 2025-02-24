@@ -23,7 +23,6 @@ window.onclick = function(event) {
 document.getElementById("nav").innerHTML = `
 <div>
     <ul>
-        
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forMe()">For Me</a></li>
             <div id="dropdownForMe" class="dropdown-content">
@@ -98,7 +97,6 @@ document.getElementById("nav").innerHTML = `
     position: relative;
     display: block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
