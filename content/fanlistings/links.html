@@ -4,6 +4,25 @@ title: links
 description: Links in and out!
 name: links
 ---
+<script>
+    function forBtn() {
+    document.getElementById("dropdownBtn").classList.toggle("show");
+}
+</script>
+<style>
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    line-height: 0.5rem;
+    padding-bottom: 15px;
+}
+.show {
+    display:block;
+}
+</style>
 <h2>Links in and out!</h2>
 <hr>
 <h3>Feel free to link back here!<br><small>Hotlinking is okay!</small></h3>
@@ -11,9 +30,24 @@ name: links
     &nbsp;<img src="img/btn/pastelprince.gif" width="88" height="31">&nbsp;
     <textarea><a target="_blank" href="https://pastelprince.lockheart.love/"><img src="https://i.imgur.com/38f5s68.gif"></a></textarea>
 </div>
-<p>♡ alternative sizes ♡</p>
-<img src="https://i.imgur.com/HGVKnxb.png" width="75" height="50"><img src="https://i.imgur.com/trZkA2X.png" width="100" height="50"><br>
-<img src="https://i.imgur.com/osLYOnD.png" width="200" height="40">
+<p>♡ <a onclick="forBtn()">alternative sizes</a> ♡</p>
+<div id="dropdownBtn" class="dropdown-content">
+<p><small>50x50</small></p>
+<img src="img/btn/pastelprince50x50.png" width="50" height="50">
+<img src="img/btn/pastelprince50x50-2.png" width="50" height="50">
+<p><small>75x50</small></p>
+<img src="img/btn/pastelprince75x50.png" width="75" height="50">
+<img src="img/btn/pastelprince75x50-2.png" width="75" height="50">
+<p><small>88x31</small></p>
+<img src="img/btn/pastelprince88x31.png" width="88" height="31">
+<img src="img/btn/pastelprince88x31-2.png" width="88" height="31">
+<p><small>100x50</small></p>
+<img src="img/btn/pastelprince100x50.png" width="100" height="50">
+<img src="img/btn/pastelprince100x50-2.png" width="100" height="50">
+<p><small>200x40</small></p>
+<img src="img/btn/pastelprince200x40.png" width="200" height="40"><br><br>
+<img src="img/btn/pastelprince200x40-2.png" width="200" height="40">
+</div>
 <hr>
 <h3 id="affies">Affiliates!</h3>
 <a href="https://love.suga.nu/" target="_blank"><img src="img/links/75x50-amour.png" width="75" height="50"></a> 
@@ -49,6 +83,8 @@ name: links
     <a href="https://thewildrose.org/" target="_blank"><img src="img/links/7550_3.png" width="75" height="50"></a> 
     <a href="https://fan.redcrown.net/" target="_blank"><img src="img/links/heartplace.png" width="75" height="50"></a> 
     <a href="https://fable.nu/" target="_blank"><img src="img/links/lovebound.png" width="75" height="50"></a> 
+    <a href="https://fan.kirai.org/" target="_blank"><img src="img/links/pandaemonium.png" width="75" height="50"></a> 
+    <a href="https://eien-melody.net/fan/" target="_blank"><img src="img/links/betterhands.png" width="75" height="50"></a> 
 </div>
 <p>♡ <a href="https://puppyluv-listings.neocities.org/" target="_blank">PuppyLuv Listings</a> ♡</p><hr>
 <h3>Listed At:</h3>
