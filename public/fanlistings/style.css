@@ -88,6 +88,10 @@ body, html {
     margin:-10px;
     margin-bottom: 11px;
 }
+.navvie{
+    width: 90%;
+    margin: auto
+}
 .scrollbox {
     text-align:left;
     width: 100%;
@@ -237,6 +241,18 @@ img.border{
 }
 .myfltext p{
     margin-top: -3px;
+}
+.clique{
+    background-color: var(--accent);
+    border: solid 2px var(--text);
+    width: max-content;
+    height: 1.5rem;
+    padding: 10px;
+    margin: 2px
+}
+.ccenter{
+    display:flex;
+    align-items: center;
 }
 #stats{
     height: 6.25rem
