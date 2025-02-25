@@ -199,6 +199,12 @@ details{
     display: block;
     margin: 10px auto;
 }
+.clique{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+}
 @media (max-width:940px){
     #updatebox{
         float:none;
