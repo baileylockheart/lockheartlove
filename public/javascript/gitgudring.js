@@ -10,6 +10,7 @@ webring = {
     "https://ironstar.nekoweb.org/",
     "https://bibliohound.neocities.org/webrings/",
     "https://bang1338.nekoweb.org/",
+    "https://entropically.neocities.org/",
       ],
 
   // html inserted as your widget
@@ -59,7 +60,7 @@ a.git:hover {
       <div id="gitgudlock">
        <a class="git" href="https://bang1338.nekoweb.org/"><img class="nav" src="/images/webrings/3gitprev.webp" alt="PREV"></a>
        <a class="git" href="RANDOM"><img src="/images/webrings/3gitrand.webp" alt="RANDOM"></a>
-       <a class="git" href="https://mechagic.party/"><img class="nav" src="/images/webrings/3gitnext.webp" alt="NEXT"></a>
+       <a class="git" href="https://entropically.neocities.org/"><img class="nav" src="/images/webrings/3gitnext.webp" alt="NEXT"></a>
       </div>
     </div>
   `,
