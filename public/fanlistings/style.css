@@ -355,4 +355,11 @@ textarea{
         margin: auto;
         width: 100%;
     }
+    .clique, .ccenter{
+        width: 95%;
+        text-align: center;
+        justify-content: center;
+        height: auto;
+        margin: 2px auto
+    }
 }
