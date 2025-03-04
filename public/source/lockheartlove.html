@@ -54,8 +54,14 @@ document.getElementById("myDropdownJS").classList.toggle("show");
     function dropSource() {
 document.getElementById("myDropdownSource").classList.toggle("show");
 }
+function dropStyles() {
+document.getElementById("myDropdownStyles").classList.toggle("show");
+}
     function dropWebmastery() {
 document.getElementById("myDropdownWebmastery").classList.toggle("show");
+}
+    function dropWebring() {
+document.getElementById("myDropdownWebring").classList.toggle("show");
 }
 </script>
 <body>
@@ -204,13 +210,30 @@ document.getElementById("myDropdownWebmastery").classList.toggle("show");
             <hr>
             <svg class="folder3"><use xlink:href="#icon-folder"></use></svg> <a style="color:var(--lighter)" href="/source/webmastery.html">webmastery</a>
             <hr>
+            <div class="dropdown">
+                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropStyles()">styles</a>
+                <div id="myDropdownStyles" class="dropdown-content">
+                    <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/styles/about.css?theme=dracula";'>about.css</a>
+                    <br>
+                    <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/styles/index.css?theme=dracula";'>index.css</a>
+                </div>
+            </div>
+            <hr><div class="dropdown">
+                <svg class="folder2"><use xlink:href="#icon-folder"></use></svg> <a onclick="dropWebring()">webring</a>
+                <div id="myDropdownWebring" class="dropdown-content">
+                    <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webring/bolognese.html?theme=dracula";'>bolognese.html</a>
+                    <br>
+                    <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webring/bucket-webring.html?theme=dracula";'>bucket-webring.html</a>
+                    <br>
+                    <svg class="doc indent"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/webring/index.html?theme=dracula";'>index.html</a>
+                </div>
+            </div>
+            <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/404.html?theme=dracula";'>404.html</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/about.html?theme=dracula";'>about.html</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/blog.html?theme=dracula";'>blog.html</a>
-            <hr>
-            <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/bucket-webring.html?theme=dracula";'>bucket-webring.html</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/contact.html?theme=dracula";'>contact.html</a>
             <hr>
@@ -219,8 +242,6 @@ document.getElementById("myDropdownWebmastery").classList.toggle("show");
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/foryou.html?theme=dracula";'>foryou.html</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/graphics.html?theme=dracula";'>graphics.html</a>
-            <hr>
-            <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/index.css?theme=dracula";'>index.css</a>
             <hr>
             <svg class="doc"><use xlink:href="#icon-document"></use></svg><a onClick='document.getElementById("codeID").src="https://github-iframe.vercel.app/baileylockheart/lockheartlove/public/index.html?theme=dracula";'>index.html</a>
             <hr>
