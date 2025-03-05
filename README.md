@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+3-5-2025 I made a shrine for EPIC: The Musical!!!!!!
+
 3-1-2025: I'm one of the winners of <a href="https://petrapixel.neocities.org/contest" target="_blank">Petra's Indie Web Contest</a> and I think I will either cry or explode because OMG 😭😭😭
 
 2-22-2025: I FINALLY GOT A DOMAIN!!! I'm very happy about it! All the old links will still work, but still!!

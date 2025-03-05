@@ -7,6 +7,7 @@ var imageUrls = [
   , "https://file.garden/ZrZSgsrYfQXsO7QH/affielink/shadowlord.png"
   , "https://file.garden/ZrZSgsrYfQXsO7QH/affielink/unchartedsky.png"
   , "https://file.garden/ZrZSgsrYfQXsO7QH/ww/ww-affie.png"
+  , "https://file.garden/ZrZSgsrYfQXsO7QH/affielink/yaten.png"
 ];
 var imageLinks = [
     "https://love.suga.nu/"
@@ -15,6 +16,7 @@ var imageLinks = [
    , "https://shadow-lord.com/"
    , "https://uncharted-sky.org/"
    , "https://webmasterwebring.netlify.app/"
+   , "https://yaten.net/"
 ];
 
 function getImageHtmlCode() {
