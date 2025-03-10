@@ -19,7 +19,7 @@ webring = {
   <style>
   #gitgudring{
 	display: block;
-  margin: 10px auto;
+  margin: 20px auto 10px;
 }
 
 br.low{

@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+3-9-2025: Possibly my longest Blog Post yet! It's a bit personal and therefore nerve-racking, but I wanted to write about it :3
+
 3-5-2025 I made a shrine for EPIC: The Musical!!!!!!
 
 3-1-2025: I'm one of the winners of <a href="https://petrapixel.neocities.org/contest" target="_blank">Petra's Indie Web Contest</a> and I think I will either cry or explode because OMG 😭😭😭

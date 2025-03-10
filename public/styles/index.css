@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=IM+Fell+English+SC&display=swap');
 .box{
     margin: 0.16rem;
 }
@@ -203,6 +204,61 @@
   }
   .git img {
     margin: -13px
+}
+magical-ring {
+    max-width: 50ch;
+    border:black 4px double;
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding-top: 0.2em;
+    color:black;
+    background-color:antiquewhite;
+  }
+  
+  magical-ring > * {
+    box-sizing: border-box;
+  }
+  
+  magical-ring div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  magical-ring a,magical-ring a:visited{
+  color:black;
+  text-decoration: none;
+  }
+  
+  magical-ring .arrow {
+    text-decoration:underline;
+  }
+  
+  magical-ring h3, magical-ring .ring-name {
+    font-family: 'IM Fell English SC', serif;
+    
+  }
+  magical-ring p, magical-ring a {
+    font-family: 'Benne', serif;
+    font-size:0.9em;
+  }
+  magical-ring .picture {
+    background-image: url("/images/webrings/crow.png");
+    width: 109px;
+    height: 61px;
+  }
+  magical-ring .picture-noring {
+    background-image: url("/images/webrings/snakey.png");
+    width: 50px;
+    aspect-ratio: 1/1;
+  }
+  magical-ring p,magical-ring h3 {
+    margin: 0;
+    margin-bottom:0.1em;
+  }
+#magical-ring a:hover{
+    color:grey
 }
 details{
     display: block;
