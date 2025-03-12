@@ -260,6 +260,21 @@ magical-ring {
 #magical-ring a:hover{
     color:grey
 }
+#collectorWebRing {
+    background-color: #c9eecc;
+    font-family: Serif;
+    color: black;
+    font-weight: bold;
+    margin: 5px auto;
+  }
+  #collectorWebRing a{
+    color: #CB6464;
+  }
+  #collectorWebRing a:hover {
+    color: black; 
+    transition: none;
+    -webkit-transition: none
+  }
 details{
     display: block;
     margin: 10px auto;
