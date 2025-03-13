@@ -40,7 +40,7 @@ img{
     scrollbar-width: thin;
 }
 .scrollbox{
-    width:10rem;
+    width:11rem;
     height:12rem;
     overflow-y: auto;
     scrollbar-width: thin;
