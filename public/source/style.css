@@ -24,10 +24,6 @@ body:before{
     top:0;
     transform: scale(1);
     z-index: -700;
-    background-image: url(images/sparkles.png);
-    background-size: repeat, auto;
-    background-position: center, 0% 0%;
-    background-repeat: repeat, repeat;
     background-color: var(--bg);
 }
 body{
