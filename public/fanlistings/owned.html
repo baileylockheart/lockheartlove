@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pastel Prince FLs // owned</title>
+    <title>Pastel Prince Listings // owned</title>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -9,19 +9,19 @@
     <meta name="theme-color" content="#cae9ff">
     
     <!--meta tags-->
-    <meta name="description" content="Fanlistings I own!"/>
+    <meta name="description" content="Listings I own!"/>
     <meta property="og:site_name" content="Lockheart Love"/>
-    <meta property="og:title" content="Pastel Prince FLs // owned"/>
+    <meta property="og:title" content="Pastel Prince Listings // owned"/>
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Fanlistings I own!"/>
+    <meta property="og:description" content="Listings I own!"/>
     <meta property="og:image" content="https://i.imgur.com/38f5s68.gif"/>
     <meta property="og:image:height" content="800"/>
     <meta property="og:url" content="https://pastelprince.lockheart.love/owned"/>
     
     <!--and the bird app bc they just have to be special-->
-    <meta name="twitter:title" content="Pastel Prince FLs // owned" />
+    <meta name="twitter:title" content="Pastel Prince Listings // owned" />
     <meta name="twitter:image" content="https://i.imgur.com/38f5s68.gif">
-    <meta name="twitter:description" content="Fanlistings I own!">
+    <meta name="twitter:description" content="Listings I own!">
     <meta property="twitter:card" content="summary_large_image"/>
     
     <link rel="canonical" href="https://pastelprince.lockheart.love/owned"/>
@@ -33,7 +33,7 @@
 <body>
     <div id="container">
         <div id="content">
-            <h1 id="title"><img class="icon" src="img/icon.png"> <a href="index">Pastel Prince FLs</a> <img class="icon" src="img/icon.png"></h1>
+            <h1 id="title"><img class="icon" src="img/icon.png"> <a href="index">Pastel Prince Listings</a> <img class="icon" src="img/icon.png"></h1>
             <div id="nav">
                 <ul>
                     <li><a href="about">About</a></li>
@@ -45,51 +45,133 @@
                 </ul>
             </div>
             <main>
-<h2>Fanlistings I own!</h2>
+<style>
+    .filterDiv{
+        display:none;
+    }
+    .show {
+        display: flex;
+    }
+    .btn{
+        background-color: var(--light);
+        color: var(--main);
+        font-family: var(--sans);
+        border: solid 2px var(--text);
+        font-size: 1rem;
+    }
+    .btn.active {
+        background-color: var(--accent);
+        color: var(--text);
+    }
+    .btn:hover{
+        transition: all .2s ease-out;
+        transform: scale(1.02); }
+</style>
+<h2>Listings I own!</h2>
 <p>I have them listed here with the most recent first!</p>
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">Show all</button>
+    <button class="btn" onclick="filterSelection('fanlisting')">Fanlistings</button>
+    <button class="btn" onclick="filterSelection('webring')">Webrings</button>
+</div>
 <hr>
 <div id="list" class="scrollbox">
-    <div class="myfl">
+    <div class="myfl filterDiv fanlisting">
         <img src="fan/akito/img/codes/akito50x50.png" width="50">
         <div class="myfltext">
             <span><a href="fan/akito/" target="_blank">I'm going after my dream</a></span> <span>♡ Akito Shinonome ♡</span>
             <p>A fanlisting for Akito Shinonome from Project SEKAI!</p>
         </div>
     </div>   
-    <hr class="half">
-    <div class="myfl">
+    <hr class="half filterDiv fanlisting">
+    <div class="myfl filterDiv fanlisting">
         <img src="img/codes/itch50x50.png" width="50">
         <div class="myfltext">
             <span><a href="https://dont-click-this.itch.io/itchio-fanlisting" target="_blank">The latest indie games!</a></span> <span>♡ itch.io ♡</span>
             <p>A fanlisting for the website, itch.io!</p>
         </div>
     </div>   
-    <hr class="half">
-    <div class="myfl">
+    <hr class="half filterDiv fanlisting">
+    <div class="myfl filterDiv fanlisting">
         <img src="fan/straykids/img/codes/skz50x50.png" width="50">
         <div class="myfltext">
             <span><a href="fan/straykids/" target="_blank">Step out, we are STRAY KIDS!</a></span> <span>♡ Stray Kids ♡</span>
             <p>A fanlisting for the K-pop group, Stray Kids!</p>
         </div>
     </div>   
-    <hr class="half">
-    <div class="myfl">
+    <hr class="half filterDiv fanlisting">
+    <div class="myfl filterDiv fanlisting">
         <img src="img/codes/maddsB50x50.png" width="50">
         <div class="myfltext">
             <span><a href="https://maddsbuckleyfansite.meowandsparkle.party/fanlisting.html" target="_blank">What a wonderful feeling</a></span> <span>♡ Madds Buckley ♡</span>
             <p>A fanlisting dedicated the indie musician, Madds Buckley!</p>
         </div>
     </div>   
-    <hr class="half">
-    <div class="myfl">
+    <hr class="half filterDiv fanlisting">
+    <div class="myfl filterDiv fanlisting">
         <img src="img/codes/awesomesauce_50x50.png" width="50">
         <div class="myfltext">
-            <span><a href="https://awesome-sauce-directory.neocities.org/fanlisting" target="_blank">THE AWESOME SAUCE FANLISTING</a></span> <span>♡ Websites ♡</span>
+            <span><a href="https://awesome-sauce-directory.neocities.org/fanlisting" target="_blank">THE AWESOME SAUCE FANLISTING</a></span> <span>♡ Awesome Websites ♡</span>
             <p>A fanlisting for anyone who likes awesome websites!</p>
+        </div>
+    </div>   
+    <hr class="half filterDiv fanlisting">
+    <div class="myfl filterDiv webring">
+        <img src="img/codes/ww-50.png" width="50">
+        <div class="myfltext">
+            <span><a href="https://webmasterwebring.netlify.app/" target="_blank">Webmaster Webring</a></span> <span>♡ Websites of all kinds ♡</span>
+            <p>A webring for anyone with a website of any sort!</p>
         </div>
     </div>   
 </div>
 <hr>
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("filterDiv");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+    }
+
+    function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+    }
+
+    function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+    }
+    element.className = arr1.join(" ");
+    }
+
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+    }
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+</script>  
             </main>
             <footer>
                 &#9825;&nbsp;&nbsp;<a href="https://lockheart.love" target="_blank">Lockheart Love</a> | 2025&nbsp;&nbsp;&#9825;
