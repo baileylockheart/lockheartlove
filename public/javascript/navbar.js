@@ -45,7 +45,6 @@ document.getElementById("nav").innerHTML = `
                 <a href="/source/" target="_blank">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/themes">Themes</a>
                 <a href="/webmastery/" target="_blank">Webmastery <svg><use xlink:href="#icon-link"></use></svg></a>
-                <a href="/webring/" target="_blank">Webring <svg><use xlink:href="#icon-link"></use></svg></a>
             </div>
         </div> 
         <div class="dropdown">
