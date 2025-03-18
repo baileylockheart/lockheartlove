@@ -5,9 +5,9 @@
     overflow: hidden;
 }
 #cookie{
-    float:left;
-    padding:0.7rem;
-    
+    display: inline-flex;
+    padding: 0 0.7rem;
+    margin-bottom: -5px;
 }
 img{
     border-radius: 15px;
@@ -54,7 +54,12 @@ img{
     text-align: left;
 }
 #buttonbox{
-    float:right
+    float:right;
+}
+#ending{
+    display:inline-flex;
+    margin-top: -2rem;
+    align-items: center;
 }
 svg{
     fill:var(--text);
@@ -73,6 +78,12 @@ svg{
         width:98%;
         padding:2px 2px 0px;
     }
+    #cookie{
+        margin-bottom: -10px;
+    }
+    #ending{
+        margin-top: 0rem;
+    }
 }
 @media (max-width: 795px){
 #otherbox{
@@ -85,12 +96,11 @@ svg{
     width:96%;
     margin-right: 0.75rem;
 }
-#cookie{float:right}
-#ending{
-    display:flex;
-}
 #other{
     display: block;
+}
+#cookie{
+    margin-bottom: -15px;
 }
 .scrollbox{
     overflow-y:visible;
