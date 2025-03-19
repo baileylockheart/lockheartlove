@@ -1,0 +1,262 @@
+---
+layout: template.njk
+title: Sitemap
+description: A sitemap!! Kinda!!
+name: sitemap
+---
+<style>
+.tabcontent {
+    display: none;
+} 
+.tabcontent:target{
+    display:block
+}
+.tablinks{
+    text-decoration: none;
+}
+.tabcontent a{
+    text-decoration: underline;
+}
+.tabcontent a:hover{
+    color: var(--light);
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease
+}
+.tabcontent li, .tabcontent a{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+button{
+    width: max-content;
+}
+@supports selector(:not(:has(+ *))) {
+body:not(body:has(.tabcontent:target)) .path {
+      display: block;
+    }
+}
+</style>
+<h2>A sitemap!! Kinda!!</h2>
+<p>I have two versions of this because I wanted to be fancy! It might not be up to date 100% of the time, but I'll do my best ^^</p>
+<a href="#path"><button>Path-Accurate</button></a>
+<a href="#ux"><button>User-Experience Useful</button></a>
+<hr>
+<div id="path" class="path tabcontent">
+<h3>Path-Accurate Sitemap!</h3>
+<a href="/">Index</a>
+    <ul>
+        <li><a href="about">About Me</a></li>
+        <li><a href="blog/">Blog</a></li>
+        <ul>
+            <li><a href="blog/2024~11~30">2024~11~30</a></li>
+            <li><a href="blog/2024~12~01">2024~12~01</a></li>
+            <li><a href="blog/2024~12~02">2024~12~02</a></li>
+            <li><a href="blog/2024~12~03">2024~12~03</a></li>
+            <li><a href="blog/2024~12~07">2024~12~07</a></li>
+            <li><a href="blog/2024~12~16">2024~12~16</a></li>
+            <li><a href="blog/2024~12~24">2024~12~24</a></li>
+            <li><a href="blog/2024~12~31">2024~12~31</a></li>
+            <li><a href="blog/2025~01~13">2025~01~13</a></li>
+            <li><a href="blog/2025~01~18">2025~01~18</a></li>
+            <li><a href="blog/2025~01~23">2025~01~23</a></li>
+            <li><a href="blog/2025~01~25">2025~01~25</a></li>
+            <li><a href="blog/2025~02~12">2025~02~12</a></li>
+            <li><a href="blog/2025~03~09">2025~03~09</a></li>
+        </ul>
+        <li><a href="collections/">Collections</a></li>
+        <ul>
+            <li><a href="collections/albums">Albums</a></li>
+            <li><a href="collections/awards">Awards</a></li>
+            <li><a href="collections/cliques">Cliques</a></li>
+            <li><a href="collections/crafts">Crafts</a></li>
+            <li><a href="collections/drawings">Drawings</a></li>
+            <li><a href="collections/feeds">Feeds</a></li>
+            <li><a href="collections/greenhouse">Greenhouse</a></li>
+            <li><a href="collections/lists">Lists</a></li>
+            <li><a href="collections/mymusic">My Music</a></li>
+            <li><a href="collections/quizzes">Quizzes</a></li>
+            <li><a href="collections/themes">Themes</a></li>
+            <li><a href="collections/virtualpets">Virtual Pets</a></li>
+            <li><a href="collections/websites">Websites</a></li>
+        </ul>
+        <li><a href="domain">Domain</a></li>
+        <li><a href="fanlistings/">Fanlistings</a></li>
+        <ul>
+            <li><a href="fanlistings/about">About</a></li>
+            <li><a href="fanlistings/affielink/">AffieLink</a></li>
+            <li><a href="fanlistings/cliques">Cliques</a></li>
+            <li><a href="fanlistings/contact">Contact</a></li>
+            <li>Fan</li>
+            <ul>
+                <li><a href="fanlistings/fan/akito/">Akito</a></li>
+                <li><a href="fanlistings/fan/straykids/">Stray Kids</a></li>
+            </ul>
+            <li><a href="fanlistings/joined">Joined</a></li>
+            <li><a href="fanlistings/links">Links</a></li>
+            <li><a href="fanlistings/madeby">Made By</a></li>
+            <li><a href="fanlistings/owned">Owned</a></li>
+            <li><a href="fanlistings/webgarden">Webgarden</a></li>
+        </ul>
+        <li><a href="foryou">For You</a></li>
+        <li><a href="graphics/">Graphics</a></li>
+        <ul>
+            <li><a href="graphics/blinkies">Blinkies</a></li>
+            <li><a href="graphics/buttons">Buttons</a></li>
+            <li><a href="graphics/other">Other</a></li>
+            <li><a href="graphics/shinybuttons">Shiny Buttons</a></li>
+            <li><a href="graphics/stamps">Stamps</a></li>
+            <li><a href="graphics/userboxes">Userboxes</a></li>
+        </ul>
+        <li><a href="helpol/">Hellenic Polytheism</a></li>
+        <ul>
+            <li>WIP SO LITERALLY NOTHING YET SORRY</li>
+        </ul>
+        <li><a href="links">Links</a></li>
+        <li><a href="recs/">Recs</a></li>
+        <ul>
+            <li><a href="recs/anime">Anime</a></li>
+            <li><a href="recs/games">Games</a></li>
+            <li><a href="recs/music">Music</a></li>
+        </ul>
+        <li><a href="sitemap">Sitemap</a> (You are here!)</li>
+        <li><a href="shrines/">Shrines</a></li>
+        <ul>
+            <li><a href="shrines/epic">Epic</a></li>
+            <li><a href="shrines/genshin">Genshin</a></li>
+            <li><a href="shrines/maddsbuckley">Madds Buckley</a></li>
+            <li><a href="shrines/straykids">Stray Kids</a></li>
+        </ul>
+        <li><a href="source/">Source</a></li>
+        <ul>
+            <li><a href="source/fanlistings">Fanlistings</a></li>
+            <li><a href="source/javascript">Javascript</a></li>
+            <li><a href="source/lockheartlove">Lockheart Love</a></li>
+            <li><a href="source/source">Source</a></li>
+            <li><a href="source/webmastery">Webmastery</a></li>
+        </ul>
+        <li><a href="webgarden">Webgarden</a></li>
+        <li><a href="webmastery/">Webmastery</a></li>
+        <ul>
+            <li><a href="webmastery/layouts">Layouts</a></li>
+            <li><a href="webmastery/resources">Resources</a></li>
+            <li><a href="webmastery/snippets">Snippets</a></li>
+        </ul>
+    </ul>
+</div>
+
+<div id="ux" class="tabcontent">
+<h3>User-Experience Useful Sitemap!</h3>
+<a href="/">Index</a>
+    <ul>
+        <li>For Me:</li>
+        <ul>
+            <li><a href="about">About Me</a></li>
+            <li><a href="collections/albums">Albums</a></li>
+            <li><a href="collections/crafts">Crafts</a></li>
+            <li><a href="collections/drawings">Drawings</a></li>
+            <li><a href="helpol/">Hellenic Polytheism</a></li>
+            <ul>
+                <li>WIP SO LITERALLY NOTHING YET SORRY</li>
+            </ul>
+            <li><a href="collections/mymusic">My Music</a></li>
+            <li><a href="collections/quizzes">Quizzes</a></li>
+            <li><a href="collections/websites">Websites</a></li>
+        </ul>
+        <li><a href="foryou">For You:</a></li>
+        <ul>
+            <li><a href="collections/cliques">Cliques</a></li>
+            <li><a href="graphics/">Graphics</a></li>
+            <ul>
+                <li><a href="graphics/blinkies">Blinkies</a></li>
+                <li><a href="graphics/buttons">Buttons</a></li>
+                <li><a href="graphics/other">Other</a></li>
+                <li><a href="graphics/shinybuttons">Shiny Buttons</a></li>
+                <li><a href="graphics/stamps">Stamps</a></li>
+                <li><a href="graphics/userboxes">Userboxes</a></li>
+            </ul>
+            <li><a href="collections/lists">Lists</a></li>
+            <li><a href="recs/">Recs</a></li>
+            <ul>
+                <li><a href="recs/anime">Anime</a></li>
+                <li><a href="recs/games">Games</a></li>
+                <li><a href="recs/music">Music</a></li>
+            </ul>
+            <li><a href="source/">Source</a></li>
+            <ul>
+                <li><a href="source/fanlistings">Fanlistings</a></li>
+                <li><a href="source/javascript">Javascript</a></li>
+                <li><a href="source/lockheartlove">Lockheart Love</a></li>
+                <li><a href="source/source">Source</a></li>
+                <li><a href="source/webmastery">Webmastery</a></li>
+            </ul>
+            <li><a href="collections/themes">Themes</a></li>
+            <li><a href="webmastery/">Webmastery</a></li>
+            <ul>
+                <li><a href="webmastery/layouts">Layouts</a></li>
+                <li><a href="webmastery/resources">Resources</a></li>
+                <li><a href="webmastery/snippets">Snippets</a></li>
+            </ul>
+        </ul>
+        <li>For the Site:</li>
+        <ul>
+            <li><a href="collections/awards">Awards</a></li>
+            <li><a href="domain">Domain</a></li>
+            <li><a href="fanlistings/">Fanlistings</a></li>
+            <ul>
+                <li><a href="fanlistings/about">About</a></li>
+                <li><a href="fanlistings/affielink/">AffieLink</a></li>
+                <li><a href="fanlistings/cliques">Cliques</a></li>
+                <li><a href="fanlistings/contact">Contact</a></li>
+                <li>Fan</li>
+                <ul>
+                    <li><a href="fanlistings/fan/akito/">Akito</a></li>
+                    <li><a href="fanlistings/fan/straykids/">Stray Kids</a></li>
+                </ul>
+                <li><a href="fanlistings/joined">Joined</a></li>
+                <li><a href="fanlistings/links">Links</a></li>
+                <li><a href="fanlistings/madeby">Made By</a></li>
+                <li><a href="fanlistings/owned">Owned</a></li>
+                <li><a href="fanlistings/webgarden">Webgarden</a></li>
+            </ul>
+            <li><a href="collections/feeds">Feeds</a></li>
+            <li><a href="collections/greenhouse">Greenhouse</a> & <a href="webgarden">Webgarden</a></li>
+            <li><a href="sitemap">Sitemap</a> (You are here!)</li>
+            <li><a href="shrines/">Shrines</a></li>
+            <ul>
+                <li><a href="shrines/epic">Epic</a></li>
+                <li><a href="shrines/genshin">Genshin</a></li>
+                <li><a href="shrines/maddsbuckley">Madds Buckley</a></li>
+                <li><a href="shrines/straykids">Stray Kids</a></li>
+            </ul>
+            <li><a href="collections/virtualpets">Virtual Pets</a></li>
+        </ul>
+        <li><a href="blog/">Blog</a></li>
+        <ul>
+            <li><a href="blog/2024~11~30">2024~11~30</a></li>
+            <li><a href="blog/2024~12~01">2024~12~01</a></li>
+            <li><a href="blog/2024~12~02">2024~12~02</a></li>
+            <li><a href="blog/2024~12~03">2024~12~03</a></li>
+            <li><a href="blog/2024~12~07">2024~12~07</a></li>
+            <li><a href="blog/2024~12~16">2024~12~16</a></li>
+            <li><a href="blog/2024~12~24">2024~12~24</a></li>
+            <li><a href="blog/2024~12~31">2024~12~31</a></li>
+            <li><a href="blog/2025~01~13">2025~01~13</a></li>
+            <li><a href="blog/2025~01~18">2025~01~18</a></li>
+            <li><a href="blog/2025~01~23">2025~01~23</a></li>
+            <li><a href="blog/2025~01~25">2025~01~25</a></li>
+            <li><a href="blog/2025~02~12">2025~02~12</a></li>
+            <li><a href="blog/2025~03~09">2025~03~09</a></li>
+        </ul>
+        <li><a href="links">Links</a></li>
+    </ul>
+</div>
+<script>
+    var hashLinks = document.querySelectorAll("a[href^='#']");
+    [].forEach.call(hashLinks, function (link) {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        history.pushState({}, "", link.href);
+        history.pushState({}, "", link.href);
+        history.back();
+      });
+    });
+</script>

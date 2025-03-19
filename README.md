@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+3-18-2025: I made a <a href="sitemap">Sitemap</a>!
+
 3-17-2025: I made my first <a href="https://musiclique.great-site.net/" target="_blank">joinable clique</a>! It's not hosted on this site, but it's a big thing for me (first time using php, first joinable, etc) so I wanted to put it here :3
 
 3-15-2025: I removed the video manager and the extra webring link, since neither one was necessary, and I want more space to add more stuff later :3 I have some ideas in mind, so I wanted to clear up some space for them!

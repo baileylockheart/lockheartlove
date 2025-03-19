@@ -7,6 +7,9 @@ function forYou() {
 function forSite() {
     document.getElementById("dropdownSite").classList.toggle("show");
 }
+function myCreations() {
+    document.getElementById("dropdownCreations").classList.toggle("show");
+}
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -28,8 +31,9 @@ document.getElementById("nav").innerHTML = `
             <div id="dropdownForMe" class="dropdown-content">
                 <li><a href="/about">About Me</a></li>
                 <a href="/collections/albums">Albums</a>
+                <a href="/collections/crafts">Crafts</a>
                 <a href="/collections/drawings">Drawings</a>
-                <a href="/collections/lists">Lists</a>
+                <a href="/helpol/">Hellenic Polytheism</a>
                 <a href="/collections/mymusic">My Music</a>
                 <a href="/collections/quizzes">Quiz Results</a>
                 <a href="/collections/websites">Websites</a>
@@ -41,7 +45,8 @@ document.getElementById("nav").innerHTML = `
                 <a href="/foryou">See All</a>
                 <a href="/collections/cliques">Cliques</a>
                 <a href="/graphics/">Graphics</a>
-                <a href="/recs/">Recs</a>
+                <a href="/collections/lists">Lists</a>
+                <a href="/recs/">Media Recs</a>
                 <a href="/source/" target="_blank">Source Code  <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/themes">Themes</a>
                 <a href="/webmastery/" target="_blank">Webmastery <svg><use xlink:href="#icon-link"></use></svg></a>
@@ -50,13 +55,13 @@ document.getElementById("nav").innerHTML = `
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forSite()">For the Site</a></li>
             <div id="dropdownSite" class="dropdown-content">
-                <a href="/collections/">All Collections</a>
                 <a href="/collections/awards">Awards</a>
                 <a href="/domain">Domain</a>
                 <a href="/fanlistings/" target="_blank">Fanlistings <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/feeds">Feeds</a>
                 <a href="/collections/greenhouse">Greenhouse</a>
                 <a href="/shrines/">Shrines</a>
+                <a href="/sitemap">Sitemap</a>
                 <a href="/collections/virtualpets">Virtual Pets</a>
             </div>
         </div> 
@@ -100,6 +105,7 @@ document.getElementById("nav").innerHTML = `
     position: absolute;
     background-color: var(--lighter);
     min-width: 220px;
+    font-size:1.15rem;
     left:-15px;
     box-shadow:0 10px 27px rgba(0, 0, 0, 0.38);
 }
