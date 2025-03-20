@@ -29,11 +29,11 @@ document.getElementById("nav").innerHTML = `
         <div class="dropdown">
             <li><a class="dropbtn" onclick="forMe()">For Me</a></li>
             <div id="dropdownForMe" class="dropdown-content">
-                <li><a href="/about">About Me</a></li>
+                <a href="/about">About Me</a>
                 <a href="/collections/albums">Albums</a>
                 <a href="/collections/crafts">Crafts</a>
                 <a href="/collections/drawings">Drawings</a>
-                <a href="/helpol/">Hellenic Polytheism</a>
+                <a href="/helpol/" target="_blank">HelPol <svg><use xlink:href="#icon-link"></use></svg></a>
                 <a href="/collections/mymusic">My Music</a>
                 <a href="/collections/quizzes">Quiz Results</a>
                 <a href="/collections/websites">Websites</a>
