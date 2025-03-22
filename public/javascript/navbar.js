@@ -104,14 +104,14 @@ document.getElementById("nav").innerHTML = `
     display: none;
     position: absolute;
     background-color: var(--lighter);
-    min-width: 220px;
+    min-width: 180px;
     font-size:1.15rem;
     left:-15px;
     box-shadow:0 10px 27px rgba(0, 0, 0, 0.38);
 }
 .dropdown-content a {
     color:var(--main);
-    padding: 5px 16px;
+    padding: 3px 15px;
     text-decoration: none;
     display: block;
     border-top:solid 1px var(--text)
