@@ -11,7 +11,8 @@ webring = {
     "https://bibliohound.neocities.org/webrings/",
     "https://bang1338.nekoweb.org/",
     "https://entropically.neocities.org/",
-    "https://theoliveoli.blahaj.land/",
+    "https://theoliveoli.blahaj.land/links",
+    "https://jbcarreon123.nekoweb.org/links",
       ],
 
   // html inserted as your widget
