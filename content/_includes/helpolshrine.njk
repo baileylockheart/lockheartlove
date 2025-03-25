@@ -1,70 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>⋆⁺₊⋆  ALTAR : Guestbook ⋆⁺₊⋆</title>
+    <title>⋆⁺₊⋆  ALTAR : {{ title }} ⋆⁺₊⋆</title>
 
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light only"/>
-    <meta name="theme-color" content="#0f9b26">
+    <meta name="theme-color" content="#{{ color }}">
     
     <!--meta tags-->
-    <meta name="description" content="My guestbook!"/>
+    <meta name="description" content="{{ description }}"/>
     <meta property="og:site_name" content="Lockheart Love"/>
-    <meta property="og:title" content="⋆⁺₊⋆  ALTAR : Guestbook ⋆⁺₊⋆"/>
+    <meta property="og:title" content="⋆⁺₊⋆  ALTAR : {{ title }} ⋆⁺₊⋆"/>
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="My guestbook!"/>
-    <meta property="og:image" content="https://baileylockheart.github.io/images/altar.png"/>
+    <meta property="og:description" content="{{ description }}"/>
+    <meta property="og:image" content="https://lockheartlove.netlify.app/images/shrines/{{ name }}-card.png"/>
     <meta property="og:image:height" content="800"/>
-    <meta property="og:url" content="https://altar.lockheart.love/guestbook"/>
+    <meta property="og:url" content="https://altar.lockheart.love/{{ name }}"/>
     
     <!--and the bird app bc they just have to be special-->
-    <meta name="twitter:title" content="⋆⁺₊⋆  ALTAR : Guestbook ⋆⁺₊⋆" />
-    <meta name="twitter:image" content="https://baileylockheart.github.io/images/altar.png">
-    <meta name="twitter:description" content="My guestbook!">
+    <meta name="twitter:title" content="⋆⁺₊⋆  ALTAR : {{ title }} ⋆⁺₊⋆" />
+    <meta name="twitter:image" content="https://lockheartlove.netlify.app/images/shrines/{{ name }}-card.png">
+    <meta name="twitter:description" content="{{ description }}">
     <meta property="twitter:card" content="summary_large_image"/>
     
-    <link rel="canonical" href="https://altar.lockheart.love/guestbook"/>
-    <link rel="icon" type="image/x-icon" href="img/herb_1f33f.png">
+    <link rel="canonical" href="https://altar.lockheart.love/{{ name }}"/>
+    <link rel="icon" type="image/x-icon" href="img/shrines/{{ name }}/{{ icon | safe }}">
     <link rel="stylesheet" type="text/css" href="style.css">
-    
-    
+    {{ css | safe }}
+    {{ js | safe }}
     <div id="preloader"></div>
 </head>
 <body>
     <div id="container">
         <div id="content">
         <a href="index.html" id="title-mobile"><h1>⋆⁺₊⋆  ALTAR ⋆⁺₊⋆</h1></a>
-            <div id="sidebar-left"><h2>Navigation</h2>
-<hr id="nav-hr">
-<li><a href="index">Home</a></li>
-<hr>
-<details>
-    <summary>About</summary>
-    <li>About Me</li>
-    <li><a href="guestbook">Guestbook</a></li>
-</details>
-<hr>
-<details>
-    <summary>Shrines</summary>
-    <li><a href="apollo">Apollo</a></li>
-    <li>Hermes</li>
-</details>
-<hr>
-<li><a href="blog">Blog</a></li>
-<div id="hide">
-    <hr>
-    <small>A button for your travels!</small>
-    <img src="https://raw.githubusercontent.com/baileylockheart/lockheartlove/refs/heads/main/public/helpol/img/altarbtn.png">
-    <textarea><a target="_blank" href="https://altar.lockheart.love/"><img src="https://file.garden/ZrZSgsrYfQXsO7QH/buttons/altarbtn.png"></a></textarea>
-</div></div> 
+            <div id="sidebar-left">{% include 'helpolnav.njk' %}</div> 
             <div id="textbox">
                 <a href="index.html" id="title-main"><h1 >⋆⁺₊⋆  ALTAR ⋆⁺₊⋆</h1></a>
                 <hr id="main-hr">
-<h2>My guestbook!</h2>
-<p>Feel free to say hi!</p>
-<hr class="half">
-<iframe src="https://www.yourworldoftext.com/~lockheartaltar/" height="350px" width="100%" frameborder="0"></iframe>
+{{ content | safe }}
             </div>
             <div id="sidebar-right">
                 <h2>Fun Stuff</h2>
