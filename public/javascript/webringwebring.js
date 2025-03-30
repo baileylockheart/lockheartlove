@@ -7,7 +7,7 @@
 
 var tag = document.getElementById(ringID); //find the widget on the page
 
-thisSite = "https://lockheartlove.neocities.org/"; //get the url of the site we're currently on
+thisSite = "https://lockheart.love/" //get the url of the site we're currently on
 thisIndex = null;
 
 // go through the site list to see if this site is on it and find its position
@@ -45,28 +45,32 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'>about</a> &hearts; `;
+    indexText = `<a href='${indexPage}'>index</a> | `;
   }
 
   randomText = ""
   //if you've chosen to include a random button, this builds the link that does that
   if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a> &hearts; `;
+    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a> | `;
   }
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table>
+  <table style="width: 176px;">
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>&larr;</a></td>
-      <td class='webring-info'>the ${ringName} webring</br>
-      <span class='webring-links'>
-        ${indexText}
-        ${randomText}
-        <a href='https://garlic.garden/onionring/'>code</a></span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>&rarr;</a></td>
+      <td class='webring-prev'><a href='${sites[previousIndex]}'><img src="https://skylerzap.com/webring-webring/left2x.png"/></a></td>
+      <td class='webring-info'>
+        <a href="https://skylerzap.com/webring-webring/"><img src="https://skylerzap.com/webring-webring/webringwebring2x.png"/></a>
+      </td>
+      <td class='webring-next'><a href='${sites[nextIndex]}'><img src="https://skylerzap.com/webring-webring/right2x.png"/></a></td>
     </tr>
   </table>
+  <style>
+  #the-webring-webring {
+    width: max-content;
+    margin: 5px auto 0
+}
+  </style>
   `);
 
 }
