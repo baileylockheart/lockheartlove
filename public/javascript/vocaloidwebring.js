@@ -56,12 +56,12 @@ document.getElementById("vocaring").innerHTML = `
     color:#e74492;
     text-shadow:#ffffff 2px 0px 0px, #ffffff 1.75517px 0.958851px 0px, #ffffff 1.0806px 1.68294px 0px, #ffffff 0.141474px 1.99499px 0px, #ffffff -0.832294px 1.81859px 0px, #ffffff -1.60229px 1.19694px 0px, #ffffff -1.97999px 0.28224px 0px, #ffffff -1.87291px -0.701566px 0px, #ffffff -1.30729px -1.51361px 0px, #ffffff -0.421592px -1.95506px 0px, #ffffff 0.567324px -1.91785px 0px, #ffffff 1.41734px -1.41108px 0px, #ffffff 1.92034px -0.558831px 0px;
     filter:drop-shadow( 0 2px var(--bc)) drop-shadow( 2px 0 var(--bc)) drop-shadow( 0 -2px var(--bc)) drop-shadow(-2px 0 var(--bc));
-    transition:0.3s;
+    transition:0.3s !important;
 }
 
 .vocacontainer .webring-links a:hover{
     letter-spacing: 2px;
-    color:#e74492;
+    color:#e74492 !important;
 }
 
 .vocacontainer img {
@@ -74,7 +74,7 @@ document.getElementById("vocaring").innerHTML = `
         <td>
             <div class='webring-info'>VOCALOID<br>WEBRING</div>
             <div class='webring-links'>
-                <a href='https://webring.adilene.net/index.php' target='_parent' style="color:#e74492;transition:0.3s;-webkit-transition: 0.3s">Index</a> &#8226; <a href='https://webring.adilene.net/members.php' target='_parent' style="color:#e74492;transition:0.3s;-webkit-transition: 0.3s">Members</a>
+                <a href='https://upturnedchair.neocities.org/' target='_parent'>&lt;</a> <a href='https://webring.adilene.net/index.php' target='_parent'>Index</a> &#8226; <a href='https://webring.adilene.net/members.php' target='_parent'>Members</a> <a href='https://soink.neocities.org/home' target='_parent'>&gt;</a>
             </div>
         </td>
     </tr>
