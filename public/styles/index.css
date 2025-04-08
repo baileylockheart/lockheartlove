@@ -219,6 +219,60 @@
     transition: none;
     -webkit-transition: none
   }
+
+  #NYAN_ {
+    font-size: 11px;
+    width: auto;
+    height: auto; 
+  margin: 0 auto;
+    border-style: none;
+}
+
+#NYAN_ table {
+  margin: 0 auto; 
+}
+
+#NYAN_ img{
+    
+    width: 50px;
+}
+
+#NYAN_ a:hover{
+    cursor: pointer;
+}
+
+#NYAN_ .webring-info {
+    text-decoration: none;
+    width: 400px;
+    padding-bottom: 160px;
+    font-size: 18px;
+    margin-bottom: 0px;
+   text-align: center;
+ 
+}
+
+#NYAN_ .webring-info  span {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+#NYAN_ .webring-links {
+    
+  font-size:small;
+    text-align: center;
+}
+
+#NYAN_ .webring-links:hover {
+  color: white;
+}
+
+#NYAN_ .webring-links:visited {
+  color: white;
+}
 details{
     display: block;
     margin: 10px auto;

@@ -7,7 +7,7 @@
 
 var tag = document.getElementById(ringID); //find the widget on the page
 
-thisSite = "https://lockheart.love/" //get the url of the site we're currently on
+thisSite = "https://lockheart.love/"; //get the url of the site we're currently on
 thisIndex = null;
 
 // go through the site list to see if this site is on it and find its position
@@ -51,26 +51,32 @@ else {
   randomText = ""
   //if you've chosen to include a random button, this builds the link that does that
   if (useRandom) {
-    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a> | `;
+    randomText = `<a href='javascript:void(0)' onclick='randomSite()'>random</a>  `;
   }
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table style="width: 176px;">
+  <table>
     <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'><img src="/images/webrings/left2x.png"/></a></td>
-      <td class='webring-info'>
-        <a href="https://skylerzap.com/webring-webring/"><img src="/images/webrings/webringwebring2x.png"/></a>
-      </td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'><img src="/images/webrings/right2x.png"/></a></td>
+        <td class="L">
+            <a href='${sites[previousIndex]}'>
+                <img src="/images/webrings/p_arrow_lB.png">
+            </a>
+        </td>
+        <td class="face">
+            <a href="https://epiccity.nekoweb.org/ring/ring"><img src="/images/webrings/nyanfaceB.png"></a>
+        </td>
+        <td class="R">
+            <a href='${sites[nextIndex]}'>
+                <img src="/images/webrings/p_arrow_rB.png">
+            </a>
+        </td>
     </tr>
   </table>
-  <style>
-  #the-webring-webring {
-    width: max-content;
-    margin: 5px auto 0
-}
-  </style>
   `);
+//    
+//            ${indexText}
+//        <a href='https://garlic.garden/onionring/'>what is this?</a>
+
 
 }
