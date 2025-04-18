@@ -7,6 +7,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+4-18-2025:WE GOT TO 100 FOLLOWERS ON NEOCITIESSSSS, TYSM EVERYONE!!!
+
 3-24-2025: I made a <a href="/helpol/apollo">shrine for Apollo</a>! It's a bit different than my other shrines, but I'm happy with it :3
 
 3-18-2025: I made a <a href="sitemap">Sitemap</a>!
