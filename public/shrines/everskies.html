@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lockheart Love: Everskies</title>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="color-scheme" content="light only"/>
+  <meta name="theme-color" content="#5078a9">
+    
+  <!--meta tags-->
+  <meta name="description" content="Hello and welcome to my shrine for EPIC&colon; The Musical!"/>
+  <meta property="og:site_name" content="Lockheart Love"/>
+  <meta property="og:title" content="Lockheart Love: Everskies"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Hello and welcome to my shrine for EPIC&colon; The Musical!"/>
+  <meta property="og:image" content="https://lockheartlove.netlify.app/images/shrines/everskies/everskies-card.png"/>
+  <meta property="og:image:height" content="800"/>
+  <meta property="og:url" content="https://lockheart.love/shrines/everskies"/>
+    
+  <!--and the bird app bc they just have to be special-->
+  <meta name="twitter:title" content="Lockheart Love: Everskies" />
+  <meta name="twitter:image" content="https://lockheartlove.netlify.app/images/shrines/everskies/everskies-card.png">
+  <meta name="twitter:description" content="Hello and welcome to my shrine for EPIC&colon; The Musical!">
+  <meta property="twitter:card" content="summary_large_image"/>
+    
+  <link rel="canonical" href="https://lockheart.love/shrines/everskies"/>
+  <link rel="icon" type="image/x-icon" href="/images/shrines/everskies/192x192.png"/>
+
+  <div id="preloader"></div>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+    :root{
+      --bg:#8D79C4;
+      --load:#9BC4FC;
+      --altbg:#24272B;
+      --btn: #3B669D;
+      --main:#fff;
+      --light: #000;
+      --lighter: #5078a9;
+      --serif:"Lato", sans-serif;
+      --sans:"Lato", sans-serif;
+    }
+    html{
+        height:100%;
+        width:100%;
+        font-size: 18px;
+    }
+    body:before{
+        background-attachment: scroll;
+        content: '';
+        display: block;
+        position: fixed;
+        width:100vw;
+        height:100vh;
+        left:0;
+        top:0;
+        transform: scale(1);
+        z-index: -700;
+        background-image: url("/images/shrines/everskies/bgn.jpg");
+        background-size: cover, auto;
+        background-position: center, 0% 0%;
+        background-repeat: no-repeat, repeat;
+    }
+    body{
+        background-color: var(--bg);
+        font-family: var(--sans);
+        color: var(--main);
+        font-size:1rem;
+        line-height:normal;
+        font-weight:150;
+    }
+    body, html {
+        scrollbar-width: auto;
+        scrollbar-color:  var(--lighter) var(--altbg);
+      }
+    /*here we goooooo*/
+    #container{
+        display: flex;
+        max-width:1000px;
+        text-align:left;
+        margin-left:auto;
+        margin-right:auto;
+        padding-bottom:15px
+    }
+    header{
+        max-width:964px;
+        margin-left:auto;
+        margin-right:auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding:1rem;
+        margin-bottom: 10px;
+        background-color: var(--btn);
+        border-radius: 5px;
+        border: solid 2px black;
+        font-size: 2.5rem;
+        font-family: var(--serif);
+        text-align: center;
+    }
+    header img{height:2.5rem; margin: auto 10px}
+    #logo{
+        margin-bottom: -0.15rem;
+        margin-right: 1rem;
+    }
+    #logo:hover{
+        transition: all .2s ease-out;
+        transform: scale(1.02); 
+    }
+    #bottom{
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:1rem;
+        margin-top: -5px;
+        background-color: var(--altbg);
+        border-radius: 5px;
+        border: solid 2px black;
+        font-size: 1.25rem;
+        font-family: var(--sans);
+        text-align: center;
+    }
+    #main{
+        background-color: var(--altbg);
+        border-radius: 5px;
+        border: solid 2px black;
+        width: 100%;
+        height:20rem;
+        font-size: 1rem;
+        padding: 1rem;
+        margin-left: 10px;
+        text-align: start;
+        overflow-y: scroll;
+    }
+    /*sidebar*/
+    #sidebar{
+        background-color: var(--altbg);
+        border-radius: 5px;
+        border: solid 2px black;
+        width:14rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    #sidebar h2{
+        font-size: 1.2rem;
+    }
+    #sidebar img{
+        height: 220px;
+        margin:auto
+    }
+    /*text*/
+    h1{
+        font-family: var(--serif);
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    h2{
+        font-family: var(--serif);
+        text-align: center;
+        margin-top: 5px;
+    }
+    header a{
+        text-decoration: none;
+    }
+    a{
+        text-align: inherit;
+        text-decoration: underline;
+        color:inherit;
+    }
+    a:hover{
+        color: var(--lighter);
+        transition: 0.6s ease;
+        -webkit-transition: 0.6s ease
+    }
+    /*fun stuff*/
+    ::selection {
+        background: var(--lighter);
+        color:white
+      }
+    #preloader {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        background: var(--load)
+          url("/images/shrines/everskies/loading.gif")
+          no-repeat center;
+        z-index: 9999;
+      }
+      
+/*image slideshow thingy*/
+.slide{
+    height:280px;
+    margin: auto;
+}
+.tabcontent {
+    display: none;
+    padding: 10px 0;
+    border-top: none;
+    padding-bottom:15px;
+} 
+.tabcontent:target{
+    display:block
+}
+.buttons a{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;}
+@supports selector(:not(:has(+ *))) {
+body:not(body:has(.tabcontent:target)) .home {
+    display: block;
+      }
+}
+    /*media querey*/
+    @media (max-width: 768px){
+        html{
+            font-size:17px
+        }
+        #container{
+            display: block;
+            margin-left: 1rem;
+            margin-right: 2.75rem;}
+        header{
+            margin-left: 1rem;
+            margin-right: 0.75rem;
+        }
+        #sidebar{
+            width: 100%;
+            font-size: 1.15rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #main{
+            width: 100%;
+            height:30rem;
+            margin-top: 10px;
+            margin-left: 0;
+        }
+        iframe{
+            width: 100%;
+        } 
+    }
+</style>
+<body>
+    <header><img src="https://everskies.com/assets/icon/es_logo.svg"><a href="/shrines/">EVERSKIES</a></header>
+    <div id="container">
+        <div id="sidebar">
+            <h2>Related Things:</h2>
+            <p><a href="https://everskies.com/user/_Lockheart-2962006" target="_blank">My Profile!</a></p>
+            <p><a href="https://codepen.io/lockheartlove143" target="_blank">My Codepen!</a></p>
+            <img src="/images/shrines/everskies/avi.png">
+        </div>
+    <div id="main">
+        <p>Hello and welcome to my shrine for Everskies!</p>
+        <p>Everskies is,, a game? It's technically a dress-up game, with both a mobile app and a website. I'm active on both, as it's cross-platform, which is really nice! The reason I hesitate to call it a game is because it's more like a social media platform, in a sense. It's filled with forums, which I love, and it has a pretty heavy focus on buying and selling things, which I love notably less. It's strange to say the least, but I still like it enough that I'm making a shrine about it, y'know?</p>
+        <p>I originally started playing in 2022, though I was quickly turned off by how inherently it relied on currency and talking to strangers in order to run, so I uninstalled the app. Notably though, I didn't bother to delete the account. It sat there for a while, untouched but otherwise intact.</p>
+        <p>It remained that way until last year, when several of my friends on Threads all joined at the same time. I remembered it, so I logged back in, and my understanding of it suddenly shifted. Interacting with my friends, building up currency via minigames so I can buy them gifts, browsing through different forums, it was fun! I realized you can earn currency extremely fast by watching ads, which led to me spending an absurd amount of time with the app open, just playing ads - I was spending nearly 60 hours a week this way, basically watching ads for as long as I was awake.</p>
+        <p>I've always known I'm oddly susceptible to rewarded ads for some reason, so I spent quite a while in that cycle. Even when all of those friends moved on from the game, I was still doing this for a while. Even after I mostly lost interest, I kept it installed so I could occasionally log in to watch a few ads and claim the login rewards. Still though, I <i>did</i> lose interest for a while, so I had effectively abandoned the game for another year.</p>
+        <p>I'm not even sure what drew me back this time - I wanted to change up my character for no real reason, so I popped back in to do so. Next thing I know, I've been playing for hours and I got several new followers! Not long later, and all of a sudden, I was getting my first ever layout commissions, essentially making small websites for people!</p>
+        <p>Making layouts is SUPER fun for me, and technically, I've been doing it for a while! I have a codepen account that I used to make and share simple website layouts a while back, and I've added some Everskies layouts to it as well! I don't put my commissions there, for the sake of ~exclusivity~ or whatever, but I'm thinking of making some more premade layouts, and maybe making some snippets to add to other ones!</p>
+        <p>Now, technically I have <a href="/blog/2025~04~23">a whole blog post</a> about how this all happened, so I don't need to rehash it here. The point is, Everskies, to me, went from a nothing social app to an addictive ad-watching cycle to the source of my first ever commissions, all in the span of three-ish years. It's crazy to think about! I went from uninstalling it without a thought to opening it before I even check the time, and I genuinely really like it now!</p>
+        <p>It is odd, though. The environment can border on toxic at times, and it feels strange relative to most socials. It doesn't really feel like social media, but it doesn't really feel like a forum, and it still somehow barely feels like a game?? I know it's technically all of those things, which might be part of why I still can't really put my finger on what it <i>feels</i> like. I know I like it, and I know a lot of people hate it, and I can't even argue with them about it - not because they're unreasonable, but because I understand where they're coming from. Everskies is flawed but fun in my opinion, and everyone's entitled to their own.</p>
+        <p>I'm making this shrine as a sort of extension to the blog post, just wanting to talk about something I'm interested in for a bit longer. A (mildly) proofread yap section, I suppose. If you've read this far into it, I really appreciate it! Also, if you happen to have Everskies and want to say hi, I've linked my account :3 Thanks for reading! &#9825;</p>
+      </div>
+    </div>
+    <div id="container">
+        <div id="bottom">
+            <h3>Some outfits! Simple but I like them!</h3>
+            <div class="slider">
+                  <img id="slide-1" src="/images/shrines/everskies/oldavi.png" class="slide tabcontent home"/>
+                  <img id="slide-2" src="/images/shrines/everskies/meow.png" class="slide tabcontent"/>
+                  <img id="slide-3" src="/images/graphics/everskies.png" class="slide tabcontent"/>
+                  <img id="slide-4" src="/images/graphics/everskies02.png" class="slide tabcontent"/>
+                <div class="buttons">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                  <a href="#slide-4"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+          loader.style.display = "none";
+        });
+    </script>
+</body>
+
+</html>
