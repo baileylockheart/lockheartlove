@@ -89,6 +89,7 @@ logo: everskies/192x192.png
     }
     #bottom{
         width: 100%;
+        /*display: flex;*/
         margin-left:auto;
         margin-right:auto;
         padding:1rem;
@@ -175,9 +176,14 @@ logo: everskies/192x192.png
       }
       
 /*image slideshow thingy*/
+/*
+.slider{
+    border: solid 2px black;
+    width:max-content
+}*/
 .slide{
     height:280px;
-    margin: auto;
+    margin: 0 auto;
 }
 .tabcontent {
     display: none;
@@ -193,7 +199,9 @@ logo: everskies/192x192.png
     height: 15px;
     width: 15px;
     border-radius: 50px;
-    background-color: white;}
+    background-color: white;
+    margin: 0 0 5px 0
+}
 @supports selector(:not(:has(+ *))) {
 body:not(body:has(.tabcontent:target)) .home {
     display: block;
@@ -253,17 +261,18 @@ body:not(body:has(.tabcontent:target)) .home {
     </div>
     <div id="container">
         <div id="bottom">
-            <h3>Some outfits! Simple but I like them!</h3>
             <div class="slider">
-                  <img id="slide-1" src="/images/shrines/everskies/oldavi.png" class="slide tabcontent home"/>
-                  <img id="slide-2" src="/images/shrines/everskies/meow.png" class="slide tabcontent"/>
-                  <img id="slide-3" src="/images/graphics/everskies.png" class="slide tabcontent"/>
-                  <img id="slide-4" src="/images/graphics/everskies02.png" class="slide tabcontent"/>
+                  <img id="slide-1" src="/images/shrines/everskies/avi1.png" class="slide tabcontent home"/>
+                  <img id="slide-2" src="/images/shrines/everskies/avi2.png" class="slide tabcontent"/>
+                  <img id="slide-3" src="/images/shrines/everskies/avi3.png" class="slide tabcontent"/>
+                  <img id="slide-5" src="/images/shrines/everskies/avi4.png" class="slide tabcontent"/>
+                  <img id="slide-4" src="/images/shrines/everskies/avi5.png" class="slide tabcontent"/>
                 <div class="buttons">
                   <a href="#slide-1"></a>
                   <a href="#slide-2"></a>
                   <a href="#slide-3"></a>
                   <a href="#slide-4"></a>
+                  <a href="#slide-5"></a>
                 </div>
             </div>
         </div>
