@@ -8,6 +8,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 
 ## Updates and Changes:
 
+5-21-2025:  I put my kofi button on every main page rather than only on one :'D hopefully it's not too intrusive!
+
 5-2-2025: I made an <a href="/shrines/everskies">Everskies shrine</a>! It's very yappy and I'm probably gonna change some stuff around later, but I like it :D
 
 4-18-2025:WE GOT TO 100 FOLLOWERS ON NEOCITIESSSSS, TYSM EVERYONE!!!

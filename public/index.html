@@ -224,6 +224,7 @@
 <div id="updatebox" class="box">
     <div class="boxtop">Site Updates!</div>
     <div id="updates">
+        <p><b>5-21-2025:</b> I put my kofi button on every main page rather than only on one :'D hopefully it's not too intrusive!</p>
         <p><b>5-2-2025:</b> I made an <a href="/shrines/everskies">Everskies shrine</a>! It's very yappy and I'm probably gonna change some stuff around later, but I like it :D</p>
         <p><b>4-18-2025:</b> WE GOT TO 100 FOLLOWERS ON NEOCITIESSSSS, TYSM EVERYONE!!!</p>
         <p><b>3-24-2025:</b> I made a <a href="/helpol/apollo">shrine for Apollo</a>! It's a bit different than my other shrines, but I'm happy with it :3</p>
@@ -272,7 +273,14 @@
             </footer>
         </div>
     </div>
+    <script src='/javascript/kofi.js'></script>
     <script>
+      kofiWidgetOverlay.draw('baileylockheart', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#935adb',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
         var loader = document.getElementById("preloader");
         window.addEventListener("load", function () {
           loader.style.display = "none";

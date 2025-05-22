@@ -97,6 +97,7 @@ body:not(body:has(.tabcontent:target)) .path {
             <li><a href="blog/2025~04~11">2025~04~11</a></li>
             <li><a href="blog/2025~04~23">2025~04~23</a></li>
             <li><a href="blog/2025~05~12">2025~05~12</a></li>
+            <li><a href="blog/2025~05~21">2025~05~21</a></li>
         </ul>
         <li><a href="collections/">Collections</a></li>
         <ul>
@@ -294,6 +295,7 @@ body:not(body:has(.tabcontent:target)) .path {
             <li><a href="blog/2025~04~11">2025~04~11</a></li>
             <li><a href="blog/2025~04~23">2025~04~23</a></li>
             <li><a href="blog/2025~05~12">2025~05~12</a></li>
+            <li><a href="blog/2025~05~21">2025~05~21</a></li>
         </ul>
         <li><a href="links">Links</a></li>
     </ul>
@@ -315,7 +317,14 @@ body:not(body:has(.tabcontent:target)) .path {
             </footer>
         </div>
     </div>
+    <script src='/javascript/kofi.js'></script>
     <script>
+      kofiWidgetOverlay.draw('baileylockheart', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#935adb',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
         var loader = document.getElementById("preloader");
         window.addEventListener("load", function () {
           loader.style.display = "none";

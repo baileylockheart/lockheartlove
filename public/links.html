@@ -553,22 +553,20 @@
         </div>
     </div>
 </div>
-<script src='/javascript/kofi.js'></script>
-<script>
-  kofiWidgetOverlay.draw('baileylockheart', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#935adb',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
             </div>
             <footer>
                 <p>&#9825;&nbsp;&nbsp;<a href="https://neocities.org/site/lockheartlove" target="_blank" style="text-decoration: none;">Follow the Site</a>&nbsp;&nbsp;&#9825;</p>
             </footer>
         </div>
     </div>
+    <script src='/javascript/kofi.js'></script>
     <script>
+      kofiWidgetOverlay.draw('baileylockheart', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#935adb',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
         var loader = document.getElementById("preloader");
         window.addEventListener("load", function () {
           loader.style.display = "none";

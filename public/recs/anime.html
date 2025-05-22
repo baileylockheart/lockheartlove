@@ -50,7 +50,14 @@
             </footer>
         </div>
     </div>
+    <script src='/javascript/kofi.js'></script>
     <script>
+      kofiWidgetOverlay.draw('baileylockheart', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#935adb',
+        'floating-chat.donateButton.text-color': '#fff'
+      });
         var loader = document.getElementById("preloader");
         window.addEventListener("load", function () {
           loader.style.display = "none";
