@@ -22,7 +22,6 @@ window.onclick = function(event) {
       }
     }
   }
-
 document.getElementById("nav").innerHTML = `
 <div>
     <ul>
@@ -65,7 +64,7 @@ document.getElementById("nav").innerHTML = `
                 <a href="/collections/virtualpets">Virtual Pets</a>
             </div>
         </div> 
-        <li><a href="/blog/">Blog</a> <!--<img src="/images/new.gif">--></li>
+        <li><a href="/blog/">Blog</a> <img src="/images/new.gif"></li>
         <li><a href="/links">Links</a></li>
     </ul>
 </div>

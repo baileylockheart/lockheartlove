@@ -8,6 +8,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 
 ## Updates and Changes:
 
+8-12-2025: Hihi!! Made my first <a href="/blog/2025~08~12">Blog Post</a> in a while :3
+
 5-21-2025:  I put my kofi button on every main page rather than only on one :'D hopefully it's not too intrusive!
 
 5-2-2025: I made an <a href="/shrines/everskies">Everskies shrine</a>! It's very yappy and I'm probably gonna change some stuff around later, but I like it :D
