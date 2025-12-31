@@ -3,79 +3,51 @@
 // settings
 webring = {
 
-  // list of sites in the ring
+  // list of sites in the ring 
   sites: [
-    "https://mechagic.party/",
+    "https://mechagic.pages.gay/webring/",
     "https://tofutush.github.io/The-Iron-Ragdoll/misc/links/",
     "https://ironstar.nekoweb.org/",
     "https://bibliohound.neocities.org/webrings/",
     "https://bang1338.nekoweb.org/",
-    "https://entropically.neocities.org/",
-    "https://theoliveoli.blahaj.land/links",
-    "https://jbcarreon123.nekoweb.org/links",
+    "https://entropically.neocities.org/home",
+    "theoliveoli.nekoweb.org/links/",
+    "https://jbc.lol/webrings/",
     "https://riflesniper.art/funstuff",
-    "https://friendshapedplant.neocities.org/links/joined",
+    "https://friendshaped.garden/links/joined",
+    "https://sad.ovh/",
+    "https://abtmtr.link/"
       ],
 
   // html inserted as your widget
   // PREV and NEXT get replaced with neighboring site urls
   widget: `
-  <style>
-  #gitgudring{
-	display: block;
-  margin: 20px auto 10px;
-}
-
-br.low{
-	width: 0px;
-	height: 0px;
-	margin: 0px;
-}
-
-#gitgudlock{
-  width: 100%;
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: center;
-}
-
-img.nav{
-	height: 50%;
-}
-
-a.git {
-   background-size:100% 200%;
-   background-image:linear-gradient(to bottom,rgba(0,0,0,0) 50%, #FF5B3E 50%)!important;
-   -webkit-transition:background-position 0.5s;
-   -moz-transition:background-position 0.5s;
-   transition:background-position 0.5s;
-}
-a.git:hover {
-   background-position:0 100%;
-}
-  </style>
     <div id="gitgudring">
      <div id="gitgudlock">
        <br class="low">
-         <a class="git" href="https://mechagic.party/extras/gitgudring"><img src="/images/webrings/3giticon.webp" alt="go to webring"></a>
+         <a class="git" href="https://mechagic.pages.gay/extras/gitgudring"><img src="/images/webrings/3giticon.webp" alt="go to webring"></a>
        <br class="low">
       </div>
-      <div id="gitgudlock">
-       <a class="git" href="https://bang1338.nekoweb.org/"><img class="nav" src="/images/webrings/3gitprev.webp" alt="PREV"></a>
-       <a class="git" href="RANDOM"><img src="/images/webrings/3gitrand.webp" alt="RANDOM"></a>
-       <a class="git" href="https://entropically.neocities.org/"><img class="nav" src="/images/webrings/3gitnext.webp" alt="NEXT"></a>
-      </div>
+     <div id="gitgudlock">
+      <a class="git" href="https://bang1338.nekoweb.org/"><img class="nav" src="/images/webrings/3gitprev.webp" alt="PREV"></a>
+      <a class="git" href="RANDOM"><img src="/images/webrings/3gitrand.webp" alt="RANDOM"></a>
+      <a class="git" href="https://entropically.neocities.org/home"><img class="nav" src="/images/webrings/3gitnext.webp" alt="NEXT"></a>
     </div>
   `,
+
 };
 
 
 
 // code
 webring.index = location.href.startsWith("file://") ? 0 : webring.sites.findIndex(url => location.href.startsWith(url));
-
+ {
+  let sheet = document.createElement("link");
+  sheet.rel = "stylesheet", sheet.href = webring.stylesheet;
+  document.head.appendChild(sheet);
+  webring.widget = webring.widget.replace("PREV", webring.sites.at(webring.index - 1));
+  webring.widget = webring.widget.replace("NEXT", webring.sites[(webring.index + 1) % webring.sites.length]);
   webring.widget = webring.widget.replace("RANDOM", webring.sites[Math.floor(Math.random() * webring.sites.length)]);
   document.currentScript.outerHTML = webring.widget;
-
+}
 delete webring;
