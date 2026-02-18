@@ -8,6 +8,8 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 
 ## Updates and Changes:
 
+2-18-2026: First big update in a bit, but I'm slowly adding credits to my graphics hoards!! It's going slowly, but it feels like something important to do :D
+
 8-12-2025: Hihi!! Made my first <a href="/blog/2025~08~12">Blog Post</a> in a while :3
 
 5-21-2025:  I put my kofi button on every main page rather than only on one :'D hopefully it's not too intrusive!
