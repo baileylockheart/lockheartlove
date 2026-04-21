@@ -426,7 +426,7 @@ opacity: 0.5;
 	max-width: 250px;
 	max-height: 175px;
 	padding: 10px;
-    margin:10px 0px;
+    margin:10px auto;
 	border-radius: 12px;
 	background: url("/images/webrings/sora10-1536x864.png")
 		bottom center / cover no-repeat padding-box;
