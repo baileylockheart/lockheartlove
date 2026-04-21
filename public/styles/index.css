@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap");
 .box{
     margin: 0.16rem;
 }
@@ -419,6 +421,50 @@ background-repeat: no-repeat;
 z-index: 0;
 opacity: 0.5;
 }
+.sanringo {
+	text-align: center;
+	max-width: 250px;
+	max-height: 175px;
+	padding: 10px;
+    margin:10px 0px;
+	border-radius: 12px;
+	background: url("/images/webrings/sora10-1536x864.png")
+		bottom center / cover no-repeat padding-box;
+}
+.sanringo .title {
+	font-family: "Cherry Bomb One";
+	color: white;
+	font-size: 1.5em;
+	text-shadow: 0 0 10px purple;
+	text-decoration: none;
+	line-height: 1em;
+}
+.sanringo .info {
+	font-family: "Hi Melody";
+	color: purple;
+	font-size: 0.9em;
+}
+.sanringo .character {
+	max-width: 90px;
+}
+.sanringo .prev img {
+	transform: rotate(-90deg);
+}
+.sanringo .next img {
+	transform: rotate(90deg);
+}
+.sanringo .next img,
+.sanringo .prev img {
+	max-width: 45px;
+	margin-bottom: 15px;
+	filter: hue-rotate(-60deg);
+}
+.sanringo .next,
+.sanringo .prev {
+	text-decoration: none;
+}
+
+/* kuromi */
 @media (max-width:940px){
     #updatebox{
         float:none;
