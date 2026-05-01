@@ -7,6 +7,7 @@ I'm gonna try and keep track of the super big updates here! (˶˃ ᵕ ˂˶) .ᐟ
 .・。.・゜✭・.・✫・゜・。. 
 
 ## Updates and Changes:
+5-1-2026: I made a new <a href="/blog/2026~05~01">Blog Post</a>, fixed up some broken links, and updated my favorite song!
 
 2-18-2026: First big update in a bit, but I'm slowly adding credits to my graphics hoards!! It's going slowly, but it feels like something important to do :D
 
